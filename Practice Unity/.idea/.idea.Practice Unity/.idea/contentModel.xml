@@ -9,6 +9,7 @@
         <e p="Scenes" t="Include">
           <e p="scripts" t="Include">
             <e p="CharacterMove.cs" t="Include" />
+            <e p="CharaMove.cs" t="Include" />
           </e>
         </e>
       </e>
