@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CharaMove : MonoBehaviour
 {
 
-    public float moveSpeed = 5f, gravity = 1.5f, rotateSpeed = 15f, jumpForce = 1f;
+    public float moveSpeed = 5f, gravity = -1.5f, rotateSpeed = 15f, jumpForce = 1f, runFast = 1f;
     private Vector3 movement;
     private CharacterController _controller;
 
     private float yVar;
+
+    public int runMax = 2;
     
     public int jumpCountMax = 2;
 
@@ -31,8 +34,19 @@ public class CharaMove : MonoBehaviour
 
         var  hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
         transform.Rotate( 0,hInput, 0);
+        
+        
+        
+        if (Input.GetKeyDown(KeyCode.Mouse0) && runFast < runMax)
+        {
+            
+             moveSpeed = runFast++;
 
-       
+             
+
+
+        }
+            
         
         
         yVar += gravity * Time.deltaTime;
@@ -52,11 +66,10 @@ public class CharaMove : MonoBehaviour
             jumpCount++;
         }
 
-      
-        
+        movement = transform.TransformDirection(movement);
         _controller.Move(movement * Time.deltaTime);
 
-        //ovement = transform.TransformDirection(movement);
+        
 
 
    }
