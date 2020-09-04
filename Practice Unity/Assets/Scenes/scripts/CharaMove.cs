@@ -35,15 +35,19 @@ public class CharaMove : MonoBehaviour
         var  hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
         transform.Rotate( 0,hInput, 0);
         
+      
+
         
+      
         
         if (Input.GetKeyDown(KeyCode.Mouse0) && runFast < runMax)
-        {
+        { 
             
-             moveSpeed = runFast++;
+            
+            
+            moveSpeed = runMax;
 
-             
-
+            runFast++;
 
         }
             
