@@ -60,7 +60,7 @@ public class CharaMove : MonoBehaviour
 
             moveSpeed = walkMax;
 
-            moveSpeed--; 
+            canWalk = moveSpeed; 
 
 
 
