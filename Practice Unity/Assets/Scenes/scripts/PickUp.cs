@@ -1,37 +1,21 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
-public class PickUp : MonoBehaviour
+public class Pickup : MonoBehaviour
 {
-    public int points = 1;
-
+    
+  
     public int Add;
-    
-    
-    
-    public void OnCollisionEnter(Collision other)
-    {
 
+
+
+    private void OnTriggerEnter(Collider other)
+    {
         if (other.gameObject.CompareTag("Player"))
         {
-            Score.Add(points);
-            
+            Scoremanager.AddPoints(Add);
             Destroy(gameObject);
         }
-
-
-       
     }
 }
-        
-        
-    
-
-
-   
-        
-     
