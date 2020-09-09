@@ -11,22 +11,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Pickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/HealthPickup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharacterMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/PlayerScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/PickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/HealthPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +86,8 @@
       <workItem from="1599610828705" duration="220000" />
       <workItem from="1599615293589" duration="702000" />
       <workItem from="1599616073119" duration="1253000" />
+      <workItem from="1599678686255" duration="697000" />
+      <workItem from="1599679495858" duration="2703000" />
     </task>
     <servers />
   </component>

@@ -11,8 +11,10 @@
             <e p="CharacterMove.cs" t="Include" />
             <e p="CharaMove.cs" t="Include" />
             <e p="DeathBoundary.cs" t="Include" />
-            <e p="HealthPickup.cs" t="Include" />
-            <e p="PickUp.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+            <e p="SpawnPoint.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
           </e>
         </e>
       </e>
