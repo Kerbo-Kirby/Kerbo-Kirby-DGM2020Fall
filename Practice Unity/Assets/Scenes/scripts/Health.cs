@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
 
     public float waitTIme = 2f;
         
-        public FloatData HealthMax, HealthCount, powerCount;
+        public IntData HealthMax, HealthCount, powerCount;
 
 
         private void Start()
@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
 
         public IEnumerator OnTriggerEnter(Collider other)
         {
-            HealthCount.value = powerCount.value;
+            
             
             yield return new WaitForSeconds(waitTIme);
             HealthCount.value = HealthMax.value;
