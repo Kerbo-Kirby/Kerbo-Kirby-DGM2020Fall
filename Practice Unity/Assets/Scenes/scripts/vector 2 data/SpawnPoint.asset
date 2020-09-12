@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c4cc760ddb98247a1db8c89eca41e0, type: 3}
   m_Name: SpawnPoint
   m_EditorClassIdentifier: 
-  Vector3: 0
+  Vector3: 2

@@ -30,9 +30,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/IntData/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +91,7 @@
       <workItem from="1599678686255" duration="697000" />
       <workItem from="1599679495858" duration="2703000" />
       <workItem from="1599771933543" duration="4725000" />
+      <workItem from="1599944410917" duration="5050000" />
     </task>
     <servers />
   </component>
