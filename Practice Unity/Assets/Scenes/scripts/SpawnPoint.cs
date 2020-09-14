@@ -14,19 +14,13 @@ public class SpawnPoint : MonoBehaviour
         public Vector3 Position;
 
 
-        public GameObject Player;
         
         
     //Set the vData from the position value on start
 
 
-    public void Start()
-    {
-        Position = GetComponent<Vector3>();
-        
-        
 
-    }
+    
 
 
     public void OnTriggerEnter(Collider other)
@@ -35,7 +29,7 @@ public class SpawnPoint : MonoBehaviour
         //
         Vector3 Player = new Vector3(0,0,0);
 
-
+vData.
 
     }
 }

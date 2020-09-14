@@ -13,6 +13,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/EnemyConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -32,7 +35,12 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/EnemyConfig.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +100,7 @@
       <workItem from="1599679495858" duration="2703000" />
       <workItem from="1599771933543" duration="4725000" />
       <workItem from="1599944410917" duration="5050000" />
+      <workItem from="1600111193314" duration="3622000" />
     </task>
     <servers />
   </component>
