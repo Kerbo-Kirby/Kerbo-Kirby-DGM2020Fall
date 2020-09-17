@@ -6,18 +6,17 @@ public class LookAt : MonoBehaviour
 {
 
 
-    public Transform lookAtMe;
+    public Transform lookObj;
     
     
     
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-   private void Update()
-   {
-       
+    private void Update()
+    {
+        transform.LookAt(lookObj);
+        var transformRotation = transform.eulerAngles;
+        transformRotation.x = 0;
+        transform.rotation = Quaternion.Euler(transformRotation);
+    
    }
 }

@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/EnemyConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MoveLocate.cs" />
       </list>
     </option>
   </component>
@@ -105,6 +106,7 @@
       <workItem from="1599944410917" duration="5050000" />
       <workItem from="1600111193314" duration="3622000" />
       <workItem from="1600283788505" duration="1841000" />
+      <workItem from="1600302446017" duration="930000" />
     </task>
     <servers />
   </component>

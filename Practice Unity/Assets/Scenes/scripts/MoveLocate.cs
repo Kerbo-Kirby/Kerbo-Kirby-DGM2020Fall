@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class MoveLocate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Camera cam;
+    public Transform pointObj;
+    
+    private void Start()
     {
-        
+        cam = Camera.main;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
+        {
+            pointObj.position = hit.point;
+        }
     }
 }
+
