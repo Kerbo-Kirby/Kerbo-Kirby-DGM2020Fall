@@ -10,7 +10,7 @@ public class Vector3Data : ScriptableObject
 
     {
 
-        value = Obj;
+       // value = Obj;
     }
         
         

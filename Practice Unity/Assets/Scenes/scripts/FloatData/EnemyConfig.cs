@@ -9,15 +9,19 @@ public class EnemyConfig : MonoBehaviour
    private EnemyHealth eHealth;
 
 
-  void Start()
+   void Start()
    {
-      
-      eHealth ScriptableObject.CreateInstance<EnemyHealth>();
+
+       // eHealth ScriptableObject.CreateInstance<EnemyHealth>();
+       //  }
+
+
+
+       eHealth.value -= 0.3f;
+
+
    }
-
-
-  private void ontrigger
-  {
-      eHealth.value -= 0.3f
-  }
-}
+       }
+  
+  
+  

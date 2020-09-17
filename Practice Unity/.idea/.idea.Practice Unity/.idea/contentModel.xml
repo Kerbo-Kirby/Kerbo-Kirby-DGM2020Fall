@@ -23,6 +23,9 @@
             <e p="IntData" t="Include">
               <e p="IntData.cs" t="Include" />
             </e>
+            <e p="Lerp.cs" t="Include" />
+            <e p="LookAt.cs" t="Include" />
+            <e p="MoveLocate.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
             <e p="vector 2 data" t="Include">
               <e p="Vector3Data.cs" t="Include" />

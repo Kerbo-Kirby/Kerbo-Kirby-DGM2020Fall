@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Security.Cryptography;
+﻿
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -23,16 +19,16 @@ public class SpawnPoint : MonoBehaviour
     
 
 
-    public void OnTriggerEnter(Collider other)
-    {
+   // public void OnTriggerEnter(Collider other)
+    //{
         //set the location data of the player to the current spawnPo
         //
-        Vector3 Player = new Vector3(0,0,0);
+       // Vector3 Player = new Vector3(0,0,0);
 
-vData.
+//vData.
 
     }
-}
+
 
 
 
