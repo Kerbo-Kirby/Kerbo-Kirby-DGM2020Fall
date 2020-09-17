@@ -6,17 +6,13 @@ using UnityEngine;
 public class DeathBoundary : MonoBehaviour
 {
     public GameObject player;
-    public float fallOut = 2f;
-
     
-    public IEnumerator OnTriggerEnter(Collider player)
+
+    public void OnTriggerEnter(Collider other)
     {
-       
-            
-        yield return new WaitForSeconds(fallOut);
-        
-        gameObject.SetActive(false);
+        Destroy(player);
     }
+    
     
     
     
