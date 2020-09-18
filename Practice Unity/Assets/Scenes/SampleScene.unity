@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 211162447}
   - component: {fileID: 211162446}
   - component: {fileID: 211162445}
+  - component: {fileID: 211162450}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -320,6 +321,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &211162450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211162444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8470ec1e153c45478ba0247c8284fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vOne: {x: 0, y: 0, z: 0}
+  vTwo: {x: 0, y: 0, z: 0}
+  value: 0
 --- !u!1 &259963766
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 625363909}
+  fallOut: 2
 --- !u!65 &969623883
 BoxCollider:
   m_ObjectHideFlags: 0

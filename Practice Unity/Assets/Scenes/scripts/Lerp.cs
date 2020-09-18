@@ -5,16 +5,16 @@ using UnityEngine;
 public class Lerp : MonoBehaviour
 {
     
-   public Vector3 vOne,vTwo;
-   public float speed = 2f;
-   public float value;
+    public Vector3 vOne,vTwo; 
    
-   private void Update()
-   {
-   var direction = Vector3.Lerp(vOne,vTwo,value);
-   
-   transform.TransformVector(direction);
-   } 
+    public float value; 
+    
+    private void Update() 
+    { 
+        var direction = Vector3.Lerp(vOne,vTwo,value); 
+        value += 0.1f * Time.deltaTime; 
+        transform.Translate(direction); 
+    }  
     
     
     
