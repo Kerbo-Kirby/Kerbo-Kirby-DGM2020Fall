@@ -12,12 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/MoveLocate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -33,17 +33,24 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/IntData/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/EnemyConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/LookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MoveLocate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Lerp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/slefDestruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Fire ammo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MoveLocate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Mouse Down Behavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SelfDestruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer Behavoir.cs" />
       </list>
     </option>
   </component>
@@ -71,10 +78,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19020">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19020" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -109,6 +116,8 @@
       <workItem from="1600451407074" duration="542000" />
       <workItem from="1600454466838" duration="5238000" />
       <workItem from="1600541996851" duration="3255000" />
+      <workItem from="1600715582951" duration="3783000" />
+      <workItem from="1600730857712" duration="570000" />
     </task>
     <servers />
   </component>

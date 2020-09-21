@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UIElements;
 
-public class SpawnPoint : MonoBehaviour
+public class SpawnPointBehavior : MonoBehaviour
 {
 
     public Vector3Data vData;
@@ -21,9 +21,9 @@ public class SpawnPoint : MonoBehaviour
         
         
         
-       // vData.value = (transform.position); 
+        vData.value = (transform.position); 
 
-        vData.value = GetComponent<Vector3>();
+        
         
         print("i need help");
     }
@@ -34,7 +34,7 @@ public class SpawnPoint : MonoBehaviour
         
         
         
-     //  vData.SetValueFromTransform(transform.position);
+     vData.SetValueFromTransform(transform.position);
         
         var location = transform.position;
         

@@ -12,7 +12,7 @@ public class MoveLocate : MonoBehaviour
         cam = Camera.main;
     }
 
-    private void Update()
+    private void Move()
     {
         if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
         {

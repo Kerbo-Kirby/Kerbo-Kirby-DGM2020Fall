@@ -7,19 +7,21 @@ using UnityEngine;
 public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
+
+    public Vector3Data RotationDirection;
     
     
-    
-    
-   public void Instance()
+    public void Instance()
    {
        
        
        
        var location = transform.position;
-       var RotationDirection = new Vector3(0f,45,2f);
-       
+       var RotationDirection = new Vector3(0f,45f,2f);
+      
        Instantiate(prefab,location, Quaternion.Euler(RotationDirection));
+       
+     
       
       
       
