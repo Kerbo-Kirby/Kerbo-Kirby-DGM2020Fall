@@ -11,6 +11,7 @@ public class EnemySpawn : MonoBehaviour
     void Start()
     {
         vecData.value = GetComponent<Vector3>();
+        print("i am curenttly here");
     }
 
    
@@ -23,12 +24,10 @@ public class EnemySpawn : MonoBehaviour
         
         
         
-        
-
-            //gameObject.SetActive(true);
+       
         
         
-            print(" im here");
+            print(" over here!");
 
     }
 }

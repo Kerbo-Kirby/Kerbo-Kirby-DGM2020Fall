@@ -10,7 +10,7 @@ public class EnemyConfig : MonoBehaviour
     
     void Start()
     {
-        eHealth = ScriptableObject.CreateInstance<EnemyHealth>();
+        eHealth = ScriptableObject.CreateInstance<EnemyHealthCount>();
     }
 
     private void OnTriggerEnter(Collider other)

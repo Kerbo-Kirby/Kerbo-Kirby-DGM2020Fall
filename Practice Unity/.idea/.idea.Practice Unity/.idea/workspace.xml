@@ -34,12 +34,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/EnemyConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Lerp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/slefDestruct.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Fire ammo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MoveLocate.cs" />
@@ -51,6 +48,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer Behavoir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemySpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/EnemyConfig.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +117,8 @@
       <workItem from="1600454466838" duration="5238000" />
       <workItem from="1600541996851" duration="3255000" />
       <workItem from="1600715582951" duration="3783000" />
-      <workItem from="1600730857712" duration="2268000" />
+      <workItem from="1600730857712" duration="2633000" />
+      <workItem from="1600788723666" duration="1193000" />
     </task>
     <servers />
   </component>
