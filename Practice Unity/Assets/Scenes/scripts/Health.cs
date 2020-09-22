@@ -8,36 +8,46 @@ public class Health : MonoBehaviour
 {
 
     public float waitTIme = 2f, amount;
+
+    public IntData HealthMax, HealthCount;
+
+    public Transform spawnPoint;
+
+    private void Start()
+    {
+
+        HealthCount.value = HealthMax.value;
+    }
+
+
+
+
+    private IEnumerator OnTriggerEnter(Collider other)
+    {
+
+
+
         
-        public IntData HealthMax, HealthCount;
-
-        public Transform spawnPoint;
-        private void Start()
-        {
-
-            HealthCount.value = HealthMax.value;
-        }
-        
-    
+        yield return new WaitForSeconds(waitTIme);
+        HealthCount.value -= HealthMax.value;
+        gameObject.SetActive(false);
 
 
-        public IEnumerator OnTriggerEnter(Collider other)
-        {
-            
-            
-            
-            
-            
 
-            yield return new WaitForSeconds(waitTIme);
-            HealthCount.value -= HealthMax.value;
-            gameObject.SetActive(false);
-            
-            
-            
 
-            transform.position = spawnPoint.position;
-            HealthCount = HealthMax;
-        }
-        
+        transform.position = spawnPoint.position;
+        HealthCount = HealthMax;
+        gameObject.SetActive(true);
+        yield return null; 
+
+        // if (HealthCount = HealthMax)
+        //  {
+        //   yield return null ;
+
+        //   StopAllCoroutines();
+
+        // }
+
+
+    }
 }
