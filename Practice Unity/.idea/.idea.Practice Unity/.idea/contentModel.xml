@@ -25,11 +25,14 @@
             </e>
             <e p="Lerp.cs" t="Include" />
             <e p="LookAt Behavior.cs" t="Include" />
-            <e p="Mouse Down Behavior.cs" t="Include" />
+            <e p="Mouse Location Behavior.cs" t="Include" />
+            <e p="MouseDownBehavior.cs" t="Include" />
             <e p="MoveLocate.cs" t="Include" />
+            <e p="NewBehaviourScript.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPoin Behaivor.cs" t="Include" />
             <e p="vector 2 data" t="Include">
+              <e p="Debugger.cs" t="Include" />
               <e p="Vector3Data.cs" t="Include" />
             </e>
           </e>

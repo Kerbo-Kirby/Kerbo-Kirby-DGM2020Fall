@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [CreateAssetMenu]
 public class Vector3Data : ScriptableObject
@@ -12,7 +13,13 @@ public class Vector3Data : ScriptableObject
     {
         value = obj;
     }
-    
+
+    public void SetValueFromPosition(Transform obj)
+    {
+        value = obj.position;
+
+    }
+
     public void SetValueFromRotation(Transform obj)
     {
         value = obj.eulerAngles;

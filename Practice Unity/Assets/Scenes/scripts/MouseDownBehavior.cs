@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -7,10 +6,12 @@ using UnityEngine.Events;
 public class MouseDownBehavior : MonoBehaviour
 {
     
-public UnityEvent mouseDownEvent;
+    public UnityEvent mouseDownEvent;
+    
+    
     private void OnMouseDown()
     {
         mouseDownEvent.Invoke();
+
     }
 }
-

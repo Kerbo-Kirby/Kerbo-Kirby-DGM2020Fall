@@ -5,22 +5,23 @@ using UnityEngine.WSA;
 
 public class LookAt : MonoBehaviour
 {
-
-
-    public Transform lookObj;
-    
-    
     
 
-    private void Update()
+    public void OnLook(Vector3Data obj)
+
     {
-        transform.LookAt(lookObj);
+        /// "turret"///
+        
+        transform.LookAt(obj.value);
         var transformRotation = transform.eulerAngles ;
         transformRotation.x = 0;
-        
         transformRotation.y -= 90;
-        
         transform.rotation = Quaternion.Euler(transformRotation);
-    
-   }
+        
+    }
+
 }
+
+
+
+
