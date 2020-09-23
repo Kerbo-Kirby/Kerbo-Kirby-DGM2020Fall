@@ -34,11 +34,12 @@ public class Health : MonoBehaviour
 
 
 
-
+        
         transform.position = spawnPoint.position;
         HealthCount = HealthMax;
+    
         gameObject.SetActive(true);
-        yield return null; 
+         
 
         // if (HealthCount = HealthMax)
         //  {

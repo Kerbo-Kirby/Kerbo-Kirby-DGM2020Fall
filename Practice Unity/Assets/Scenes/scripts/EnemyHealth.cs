@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
 
     
 
-    public GameObject enemy;
+   
 
     public float spawnTime = 2f;
 
@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
     {
 
         enemyHealthCount.value = enemyHealthMax.value;
-        enemy = new GameObject();
+       
 
     }
 
@@ -33,14 +33,14 @@ public class EnemyHealth : MonoBehaviour
 
         yield return new WaitForSeconds(spawnTime);
         enemyHealthCount.value -= enemyHealthMax.value;
-        enemy.SetActive(false);
+        gameObject.SetActive(false);
 
 
 
         var location = enemySpawnPoint.position;
         enemyHealthCount = enemyHealthMax;
-        enemy.SetActive(true);
-        yield return null;
+        gameObject.SetActive(true);
+        
 
 
     }

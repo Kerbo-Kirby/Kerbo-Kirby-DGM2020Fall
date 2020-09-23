@@ -34,7 +34,7 @@ public class SpawnPointBehavior : MonoBehaviour
         
         
         
-     vData.SetValueFromTransform(transform.position);
+    // vData.SetValueFromTransform(transform.position);
         
         var location = transform.position;
         

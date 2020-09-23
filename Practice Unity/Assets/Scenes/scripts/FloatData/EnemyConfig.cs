@@ -6,16 +6,16 @@ using UnityEngine;
 public class EnemyConfig : MonoBehaviour
 {
 
-    private EnemyHealth eHealth;
+    //private enemyHealthCount eHealth;
     
     void Start()
     {
-        eHealth = ScriptableObject.CreateInstance<EnemyHealthCount>();
+     //   eHealth = ScriptableObject.CreateInstance<EnemyHealthCount>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        eHealth.value -= 0.1f;
+     //   eHealth.value -= 0.1f;
     }
    
        }
