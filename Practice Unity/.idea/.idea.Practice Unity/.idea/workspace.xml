@@ -12,7 +12,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Point.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Mouse Location Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,7 +35,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/IntData/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Lerp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" />
@@ -57,7 +58,10 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ScriptablePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +132,9 @@
       <workItem from="1600788723666" duration="1193000" />
       <workItem from="1600819091738" duration="13000" />
       <workItem from="1600888233388" duration="3960000" />
-      <workItem from="1600903946714" duration="989000" />
+      <workItem from="1600903946714" duration="1063000" />
+      <workItem from="1601008269767" duration="1114000" />
+      <workItem from="1601009469088" duration="374000" />
     </task>
     <servers />
   </component>

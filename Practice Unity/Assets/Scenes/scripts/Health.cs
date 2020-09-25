@@ -25,20 +25,20 @@ public class Health : MonoBehaviour
     private IEnumerator OnTriggerEnter(Collider other)
     {
 
-
-
         
-        yield return new WaitForSeconds(waitTIme);
         HealthCount.value -= HealthMax.value;
-        gameObject.SetActive(false);
-
-
+        yield return new WaitForSeconds(waitTIme);
+        
+        if (HealthCount.value <= 0)
+        {
+            gameObject.SetActive(false);
+            transform.position = spawnPoint.position;
+            HealthCount = HealthMax;
+            
+            gameObject.SetActive((true));
+        }
 
         
-        transform.position = spawnPoint.position;
-        HealthCount = HealthMax;
-    
-        gameObject.SetActive(true);
          
 
         // if (HealthCount = HealthMax)
