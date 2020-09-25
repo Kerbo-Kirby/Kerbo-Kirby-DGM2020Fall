@@ -11,16 +11,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Point.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Mouse Location Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/MouseDownBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/MoveLocate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/turret.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,17 +45,23 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Mouse Down event.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Mouse Down Behavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MouseDownBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Mouse Location Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/LookAt Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/vector 2 data/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instancer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ScriptablePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Point.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Look At Behavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MouseDownBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/Look At Behavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/MouseEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharaMove.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +134,9 @@
       <workItem from="1600888233388" duration="3960000" />
       <workItem from="1600903946714" duration="1063000" />
       <workItem from="1601008269767" duration="1114000" />
-      <workItem from="1601009469088" duration="374000" />
+      <workItem from="1601009469088" duration="584000" />
+      <workItem from="1601061774874" duration="2010000" />
+      <workItem from="1601065983197" duration="2000000" />
     </task>
     <servers />
   </component>
