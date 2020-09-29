@@ -11,8 +11,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggerEventBehavior1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Point.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggereventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/turret.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -62,6 +64,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/MouseEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharaMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggereventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggerEventBehavior1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +142,7 @@
       <workItem from="1601009469088" duration="584000" />
       <workItem from="1601061774874" duration="2010000" />
       <workItem from="1601065983197" duration="2000000" />
+      <workItem from="1601319994890" duration="1784000" />
     </task>
     <servers />
   </component>
