@@ -31,11 +31,15 @@ public class Health : MonoBehaviour
         
         if (HealthCount.value <= 0)
         {
-            gameObject.SetActive(false);
+          //  gameObject.SetActive(false);
             transform.position = spawnPoint.position;
-            HealthCount = HealthMax;
             
-           // gameObject.SetActive((true));
+            HealthCount = HealthMax;
+
+            
+
+
+
         }
 
         

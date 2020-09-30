@@ -10,7 +10,9 @@
           <e p="scripts" t="Include">
             <e p="behavior" t="Include">
               <e p="ApplyForce.cs" t="Include" />
+              <e p="camrot.cs" t="Include" />
               <e p="CannonLerp.cs" t="Include" />
+              <e p="CharacterKnockBack.cs" t="Include" />
               <e p="CharaMove.cs" t="Include" />
               <e p="Damage.cs" t="Include" />
               <e p="EnemyHealth.cs" t="Include" />
