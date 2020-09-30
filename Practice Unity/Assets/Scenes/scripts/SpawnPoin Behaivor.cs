@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UIElements;
@@ -18,44 +19,47 @@ public class SpawnPointBehavior : MonoBehaviour
 
     public void Start()
     {
-        
-        
-        
-        vData.value = (transform.position); 
 
-        
-        
+
+
+        vData.value = (transform.position);
+
+
+
         print("i need help");
     }
 
-    public void OnTriggerEnter(Collider other)
-    
+    private void OnTriggerEnter(Collider other)
+
     {
-        
-        
-        
-   //  vData.value = (SpawnPointBehavior.vector3);
-        
-        var location = gameObject;
-        
-        
-        
+//  vData.value = (SpawnPointBehavior.vector3);
+
+
+
+
         
 
-        //gameObject.SetActive(true);
-        
-        
+        vData.value = new Vector3(0,0,);
+
         print(" im here");
+
+
         
+
+
+//set the location data of the player to the current spawnPo
+
+
     }
-
-
-    //set the location data of the player to the current spawnPo
-    
-    
-    
-
 }
+
+
+
+
+    
+    
+
+
 
 
 

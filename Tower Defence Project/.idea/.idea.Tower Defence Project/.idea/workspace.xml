@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/code/Behavior/Scritable Objects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/code/Behavior/CharacterMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/code/Behavior/Scritable Objects/IntData.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderInitializer.cs" />
       </list>
     </option>
   </component>
@@ -60,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601338146217</updated>
       <workItem from="1601338207487" duration="2750000" />
+      <workItem from="1601421570730" duration="32000" />
     </task>
     <servers />
   </component>

@@ -32,7 +32,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/IntData/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ApplyForce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Lerp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/slefDestruct.cs" />
@@ -57,7 +56,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/ScriptablePoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Point.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Look At Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MouseDownBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/Look At Behavior.cs" />
@@ -67,6 +65,10 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggereventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggerEventBehavior1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Lerp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CannonLerp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
       </list>
     </option>
   </component>
@@ -143,6 +145,7 @@
       <workItem from="1601061774874" duration="2010000" />
       <workItem from="1601065983197" duration="2000000" />
       <workItem from="1601319994890" duration="1784000" />
+      <workItem from="1601421869445" duration="4955000" />
     </task>
     <servers />
   </component>
