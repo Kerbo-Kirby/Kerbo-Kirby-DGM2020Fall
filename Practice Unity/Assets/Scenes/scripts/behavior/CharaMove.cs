@@ -67,8 +67,5 @@ public class CharaMove : MonoBehaviour
         controller.Move(movement * Time.deltaTime);
     }
 
-    private void OnEnable()
-    {
-        transform.position = currentSpawnPoint.value;
-    }
+   
 }

@@ -12,8 +12,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggerEventBehavior1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Pick Up Behavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/Point.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggereventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharacterKnockBack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/DeathBoundary.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +60,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/Look At Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/MouseEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggereventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/TriggerEventBehavior1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/FloatData/FloatData.cs" />
@@ -71,6 +68,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/SpawnPoin Behaivor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharacterKnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/camrot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharaMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/Health.cs" />
       </list>
     </option>
@@ -151,6 +149,7 @@
       <workItem from="1601421869445" duration="4955000" />
       <workItem from="1601493926658" duration="2170000" />
       <workItem from="1601506162095" duration="1477000" />
+      <workItem from="1601673435760" duration="1290000" />
     </task>
     <servers />
   </component>
