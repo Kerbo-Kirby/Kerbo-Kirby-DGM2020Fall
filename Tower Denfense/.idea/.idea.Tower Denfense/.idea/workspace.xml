@@ -37,9 +37,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/CharaMoveBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/CharaMoveBehavior.cs" />
       </list>
     </option>
   </component>
@@ -85,6 +85,7 @@
       <updated>1601578835895</updated>
       <workItem from="1601578859129" duration="1211000" />
       <workItem from="1601584230202" duration="3850000" />
+      <workItem from="1601666955273" duration="4640000" />
     </task>
     <servers />
   </component>

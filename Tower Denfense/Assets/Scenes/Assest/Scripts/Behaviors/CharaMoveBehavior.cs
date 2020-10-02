@@ -14,6 +14,8 @@ public class CharaMoveBehavior : MonoBehaviour
 
     private Rigidbody rBody;
 
+    private float yVec;
+
     // Update is called once per frame
     public void Start()
     {
@@ -27,10 +29,9 @@ public class CharaMoveBehavior : MonoBehaviour
         float hAxis = Input.GetAxis("Horizontal") * rotateSpeed ;
         transform.Rotate( 0,hAxis, 0);
 
-        float vAxis = Input.GetAxis("Vertical") * rotateSpeed ;
-        transform.Rotate( vAxis,0, 0);
-
-     
+        float vAxis = Input.GetAxis("Vertical") * moveSpeed ;
+       
+        
 
         if (Input.GetKey(KeyCode.LeftShift))
 
