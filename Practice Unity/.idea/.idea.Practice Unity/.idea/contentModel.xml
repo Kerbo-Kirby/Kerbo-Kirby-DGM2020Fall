@@ -31,7 +31,6 @@
               <e p="IntData.cs" t="Include" />
             </e>
             <e p="Lerp.cs" t="Include" />
-            <e p="Pick Up Behavior.cs" t="Include" />
             <e p="ScriptablePoint.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="vector 2 data" t="Include">

@@ -1,26 +1,57 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+
 public class CharacterKnockBack : MonoBehaviour
-{
-    public CharacterController controller;
-    public Vector3 knockBackVector;
-    public float knockBackForce = 50f;
-    private float tempForce;
-    private void Start()
+
     {
-        tempForce = knockBackForce;
+    private CharacterController controller;
+
+    Vector3 move = Vector3.left;
+    void Update()
+    {
+        controller = GetComponent<CharacterController>();
+        controller.Move(move*Time.deltaTime);
     }
+
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        knockBackForce = tempForce;
-        while (knockBackForce > 0)
+        var i = 2f;
+        move = other.attachedRigidbody.velocity * i;
+        while (i > 0)
         {
-            knockBackVector.x = knockBackForce*Time.deltaTime;
-            controller.Move(knockBackVector);
-            knockBackForce -= 0.1f;
-            yield return new  WaitForFixedUpdate();
+            yield return new WaitForFixedUpdate();
+            i -= 0.1f;
         }
+
+        move = Vector3.left;
     }
+
+    public float powerPush;
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        var body = hit.collider.attachedRigidbody;
+
+
+        if (body == null || body.isKinematic)
+
+        {
+            return;
+        }
+
+
+        //var pushDir = new vector3(RaycastHit, MoveDirection.x, 0, hit.moveDirecrion.z);
+
+       //var forces = 
+
+            
+            
+            
+            
+    }
+    
+    
+    
 }
 
