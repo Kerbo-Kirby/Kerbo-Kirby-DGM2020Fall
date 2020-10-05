@@ -6,15 +6,21 @@ using UnityEngine;
 public class CharaMoveBehavior : MonoBehaviour
 {
     public float moveSpeed;
-    
-
     public float dart;
 
     public float rotateSpeed;
-
     private Rigidbody rBody;
 
-    private float yVec;
+    public float gravity = -2f;
+    private Vector3 playerY;
+
+    public int jumpCount = 3;
+    public int jumpForce;
+
+    public float yVarient;
+
+    private CharacterController controller;
+
 
     // Update is called once per frame
     public void Start()
@@ -24,14 +30,14 @@ public class CharaMoveBehavior : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
-    
-        float hAxis = Input.GetAxis("Horizontal") * rotateSpeed ;
-        transform.Rotate( 0,hAxis, 0);
 
-        float vAxis = Input.GetAxis("Vertical") * moveSpeed ;
-       
-        
+
+        float hAxis = Input.GetAxis("Horizontal") * rotateSpeed;
+        transform.Rotate(0, hAxis, 0);
+
+        float vAxis = Input.GetAxis("Vertical") * moveSpeed;
+
+
 
         if (Input.GetKey(KeyCode.LeftShift))
 
@@ -47,15 +53,22 @@ public class CharaMoveBehavior : MonoBehaviour
         if (Input.GetKey(KeyCode.CapsLock) && (moveSpeed <= dart))
 
 
-
+        
             moveSpeed = dart;
+
         
-        Vector3 movement = new Vector3(hAxis, 0 , vAxis)* moveSpeed* Time.deltaTime;
         
         
-        rBody.MovePosition(transform.position + movement);
-        
-      
+
+         
+
+
+            Vector3 movement = new Vector3(hAxis, 0, vAxis) * moveSpeed * Time.deltaTime;
+
+
+            rBody.MovePosition(transform.position + movement);
+
+        }
     }
 
-}
+

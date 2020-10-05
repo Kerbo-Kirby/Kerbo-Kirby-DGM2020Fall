@@ -96,8 +96,6 @@ GameObject:
   - component: {fileID: 974222006599319695}
   - component: {fileID: 974222006599319694}
   - component: {fileID: 974222006599319693}
-  - component: {fileID: 974222006599319700}
-  - component: {fileID: 974222006599319699}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -195,43 +193,3 @@ MonoBehaviour:
   moveSpeed: 5
   dart: 30
   rotateSpeed: 3
---- !u!114 &974222006599319700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974222006599319692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2688e9d469a81a84e9b444286242edd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseDownEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 974222006599319692}
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &974222006599319699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974222006599319692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4c84f2da83d33c4aa2ac8f3ef0769f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 4233612444298633149, guid: 262c5ddba1c26f444a525e07ae853d90, type: 3}
-  rotAim: {fileID: 11400000, guid: b2840e423882b354f8e42557ce460cf5, type: 2}
