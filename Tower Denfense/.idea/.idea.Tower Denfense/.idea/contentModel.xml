@@ -17,6 +17,7 @@
                 <e p="MouseEventBehavior.cs" t="Include" />
               </e>
               <e p="scriptables" t="Include">
+                <e p="enemyTurret.cs" t="Include" />
                 <e p="Intdata" t="Include">
                   <e p="IntData.cs" t="Include" />
                 </e>

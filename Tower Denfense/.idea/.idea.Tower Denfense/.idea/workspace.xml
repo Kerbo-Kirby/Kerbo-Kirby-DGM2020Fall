@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/destroyBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/enemyTurret.cs" />
       </list>
     </option>
   </component>
@@ -73,10 +74,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20412">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20412" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -96,6 +97,7 @@
       <workItem from="1601666955273" duration="4640000" />
       <workItem from="1601934577185" duration="1618000" />
       <workItem from="1602029105352" duration="2700000" />
+      <workItem from="1602108237313" duration="2697000" />
     </task>
     <servers />
   </component>
