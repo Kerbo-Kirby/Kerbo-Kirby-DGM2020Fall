@@ -70,6 +70,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharacterKnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharaMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/AIBehavior.cs" />
       </list>
     </option>
   </component>
@@ -97,10 +98,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17652">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17652" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -151,6 +152,7 @@
       <workItem from="1601506162095" duration="1477000" />
       <workItem from="1601673435760" duration="1290000" />
       <workItem from="1601925428940" duration="3490000" />
+      <workItem from="1602099800568" duration="1173000" />
     </task>
     <servers />
   </component>

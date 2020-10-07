@@ -9,6 +9,7 @@
         <e p="Scenes" t="Include">
           <e p="scripts" t="Include">
             <e p="behavior" t="Include">
+              <e p="AIBehavior.cs" t="Include" />
               <e p="ApplyForce.cs" t="Include" />
               <e p="CharacterKnockBack.cs" t="Include" />
               <e p="CharaMove.cs" t="Include" />
