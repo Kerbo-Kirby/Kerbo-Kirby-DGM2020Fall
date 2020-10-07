@@ -10,7 +10,9 @@
           <e p="Assest" t="Include">
             <e p="Scripts" t="Include">
               <e p="Behaviors" t="Include">
+                <e p="addforce.cs" t="Include" />
                 <e p="CharaMoveBehavior.cs" t="Include" />
+                <e p="destroyBullet.cs" t="Include" />
                 <e p="InstatncerBehavior.cs" t="Include" />
                 <e p="MouseEventBehavior.cs" t="Include" />
               </e>
