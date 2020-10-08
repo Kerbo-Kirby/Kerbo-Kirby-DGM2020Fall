@@ -13,6 +13,7 @@
                 <e p="addforce.cs" t="Include" />
                 <e p="CharaMoveBehavior.cs" t="Include" />
                 <e p="destroyBullet.cs" t="Include" />
+                <e p="ememyFire.cs" t="Include" />
                 <e p="InstatncerBehavior.cs" t="Include" />
                 <e p="MouseEventBehavior.cs" t="Include" />
               </e>

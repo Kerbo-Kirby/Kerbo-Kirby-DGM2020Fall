@@ -126,8 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c84f2da83d33c4aa2ac8f3ef0769f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4233612444298633149}
-  rotAim: {fileID: 11400000, guid: b2840e423882b354f8e42557ce460cf5, type: 2}
+  prefab: {fileID: 63038337211945846}
 --- !u!114 &-1644874348299957763
 MonoBehaviour:
   m_ObjectHideFlags: 0
