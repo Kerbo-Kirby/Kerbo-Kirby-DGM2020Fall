@@ -29,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/EnemyFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/OntriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,6 +49,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/enemyTurret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/ememyFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/EnemyFire.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +103,7 @@
       <workItem from="1602108237313" duration="2697000" />
       <workItem from="1602119004705" duration="1621000" />
       <workItem from="1602175760699" duration="4663000" />
+      <workItem from="1602519333561" duration="3860000" />
     </task>
     <servers />
   </component>
