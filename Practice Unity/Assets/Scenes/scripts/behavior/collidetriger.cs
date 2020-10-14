@@ -23,14 +23,16 @@ public class collidetriger : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         obj.SetActive(false);
-
+     
         
-
+print("now you dont see me");
     }
 
     private void OnTriggerExit(Collider other)
     {
         obj.SetActive(true);
+        print("now you see me");
+        Destroy(newobj);
     }
 
 
