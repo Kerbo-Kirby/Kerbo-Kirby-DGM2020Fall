@@ -79,8 +79,7 @@ public class CharaMove : MonoBehaviour
         }
         direction.Set(hit.moveDirection.x,0,hit.moveDirection.z);
 
-        var pushDirection = direction * pushPower;
-       // body.velocity = pushDirection;
+        var pushDirection = direction * pushPower;body.velocity = pushDirection;
     body.AddTorque(pushDirection);
     body.AddRelativeForce(pushDirection);
 

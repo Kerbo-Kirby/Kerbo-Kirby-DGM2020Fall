@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4df29acd227a8374291201988ee0721e, type: 3}
-  m_Name: fastSpeed
+  m_Script: {fileID: 11500000, guid: b02d1c7f927afe9459330a4fb4c086c1, type: 3}
+  m_Name: sonic
   m_EditorClassIdentifier: 
-  value: 0
+  value: 30

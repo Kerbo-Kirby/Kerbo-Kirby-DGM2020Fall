@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4df29acd227a8374291201988ee0721e, type: 3}
-  m_Name: normalSpeed
+  m_Name: fast
   m_EditorClassIdentifier: 
-  value: 10
+  value: 0
