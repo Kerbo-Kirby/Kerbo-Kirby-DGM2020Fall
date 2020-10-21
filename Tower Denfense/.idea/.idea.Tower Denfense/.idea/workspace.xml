@@ -34,12 +34,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/addforce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/CharaMoveBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/OntriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/addforce.cs" />
@@ -49,8 +49,12 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/ememyFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/EnemyFire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Intdata/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/enemyshootie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/trigerMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/damage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Intdata/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +110,8 @@
       <workItem from="1602175760699" duration="4663000" />
       <workItem from="1602519333561" duration="3860000" />
       <workItem from="1603157506445" duration="1805000" />
+      <workItem from="1603236223352" duration="1195000" />
+      <workItem from="1603237838382" duration="3927000" />
     </task>
     <servers />
   </component>

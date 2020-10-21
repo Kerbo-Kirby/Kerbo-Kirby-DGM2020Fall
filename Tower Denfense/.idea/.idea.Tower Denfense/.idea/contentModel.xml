@@ -24,6 +24,10 @@
                   <e p="IntData.cs" t="Include" />
                 </e>
                 <e p="OntriggerEvent.cs" t="Include" />
+                <e p="string" t="Include">
+                  <e p="StringTextdata.cs" t="Include" />
+                </e>
+                <e p="trigerMouse.cs" t="Include" />
                 <e p="Vector3Data.cs" t="Include" />
               </e>
             </e>

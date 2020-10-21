@@ -15,6 +15,7 @@ public class MouseEventBehavior : MonoBehaviour
 
     private void OnMouseDown()
     {
+        
         mouseDownEvent.Invoke();
 
         print("click");
