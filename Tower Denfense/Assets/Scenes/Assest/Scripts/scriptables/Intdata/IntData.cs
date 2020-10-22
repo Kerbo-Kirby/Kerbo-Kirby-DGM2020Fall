@@ -7,31 +7,12 @@ public class IntData : ScriptableObject
 
 
     public int value;
-
-
-    public void healthAmount(int amount)
-
-
-    {
-        value = amount;
-
+    
+    
         
         
         
-
-    }
-    public void damageAmount(int amount)
-
-
-    {
-        value = amount;
-
-
-    }
     
-    
-    
-
     public void setValue(int amount)
     {
 
@@ -43,6 +24,36 @@ public class IntData : ScriptableObject
         
 
     }
+    
+    public void healthAmountPowerUp(int amount)
+
+
+    {
+
+        
+        
+        
+        value += amount;
+
+
+       
+
+
+
+    }
+    public void damageAmount(int amount)
+
+
+    {
+        value -= amount;
+      
+
+    }
+    
+    
+    
+
+   
 
 
 }

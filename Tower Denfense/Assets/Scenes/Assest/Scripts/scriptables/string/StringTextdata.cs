@@ -14,12 +14,27 @@ public class StringTextdata : ScriptableObject
     
     public List<string> dialog;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+    private int i;
 
+    
+    
+    
+    
+    
+    private void OnEnable()
+    {
+        i = 0;
+    }
+    
+    
+    
+    public void GetNextString()
+    {
+        returnValue = dialog[i];
+        i = (i + 1) % dialog.Count;
+    }
+    
 
     // Update is called once per frame
   public void SetTextuiToValue (Text obj)

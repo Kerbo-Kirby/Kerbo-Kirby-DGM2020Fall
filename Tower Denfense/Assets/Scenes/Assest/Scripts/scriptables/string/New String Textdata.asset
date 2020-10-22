@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: New String Textdata
   m_EditorClassIdentifier: 
   dialog:
-  - 2
-  - 55
-  - 9999
+  - HI!
+  - can you solve this problem???
