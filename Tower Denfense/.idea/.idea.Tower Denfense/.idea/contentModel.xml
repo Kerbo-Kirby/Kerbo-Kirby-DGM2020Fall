@@ -11,12 +11,12 @@
             <e p="Scripts" t="Include">
               <e p="Behaviors" t="Include">
                 <e p="addforce.cs" t="Include" />
+                <e p="barrierTrigger.cs" t="Include" />
                 <e p="CharaMoveBehavior.cs" t="Include" />
                 <e p="destroyBullet.cs" t="Include" />
                 <e p="EnemyFire.cs" t="Include" />
                 <e p="InstatncerBehavior.cs" t="Include" />
                 <e p="MouseEventBehavior.cs" t="Include" />
-                <e p="switchQuestion.cs" t="Include" />
               </e>
               <e p="scriptables" t="Include">
                 <e p="enemyshootie.cs" t="Include" />

@@ -33,9 +33,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/OntriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/barrierTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/addforce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/switchQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Intdata/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,6 +59,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/switchQuestion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/barrierTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/CreatRespawnBehavoir.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +120,7 @@
       <workItem from="1603237838382" duration="3927000" />
       <workItem from="1603298264825" duration="6304000" />
       <workItem from="1603325596982" duration="4180000" />
+      <workItem from="1603398404615" duration="3389000" />
     </task>
     <servers />
   </component>
