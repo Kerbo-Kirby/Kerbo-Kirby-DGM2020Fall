@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\peyto\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\peyto\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CharacterMove.1389461554.00" t="ExcludeRecursive" />
-    <e p="C:\Users\peyto\Documents\Martys class\CharacterMove" t="IncludeRecursive">
+    <e p="C:\Users\peyto\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CharacterMove.1764172796.00" t="ExcludeRecursive" />
+    <e p="C:\Users\peyto\Documents\Fall2020\Kerbo-Kirby-DGM2020Fall\CharacterMove" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="mouse.cs" t="Include" />
@@ -12,9 +12,14 @@
             <e p="prefab" t="Include">
               <e p="New Folder" t="Include">
                 <e p="Bulletforce.cs" t="Include" />
+                <e p="color.cs" t="Include" />
+                <e p="HealthTrigger.cs" t="Include" />
+                <e p="jumper.cs" t="Include" />
                 <e p="mouseshoot.cs" t="Include" />
                 <e p="move.cs" t="Include" />
                 <e p="scriptables" t="Include">
+                  <e p="intData.cs" t="Include" />
+                  <e p="Spawn.cs" t="Include" />
                   <e p="Vector3Dataq.cs" t="Include" />
                 </e>
                 <e p="shoot.cs" t="Include" />

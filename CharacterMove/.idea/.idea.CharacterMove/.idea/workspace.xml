@@ -7,10 +7,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/mouseshoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Bulletforce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/mouseshoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/jumper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -28,16 +33,22 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/behavoir/TriggerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/behavoir/MouseEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/New Folder/shoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Bulletforce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/instance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Vector3Dataq.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/mouseshoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/mouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Bulletforce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/jumper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/HealthTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/intData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Spawn.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1iHsWAOLhUdkYyXkPUycYxYHOIb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -91,6 +102,9 @@
       <workItem from="1603398545508" duration="9000" />
       <workItem from="1603477927243" duration="3764000" />
       <workItem from="1603481945469" duration="2073000" />
+      <workItem from="1603487042265" duration="613000" />
+      <workItem from="1603556821956" duration="3497000" />
+      <workItem from="1603566430287" duration="10496000" />
     </task>
     <servers />
   </component>
@@ -167,5 +181,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603481734546" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603559392469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603559392469" />
   </component>
 </project>

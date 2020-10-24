@@ -7,21 +7,21 @@ public class shoot : MonoBehaviour
 {
     public GameObject prefab;
 
-
+    public Rigidbody rBody;
     public Vector3Dataq bang;
 
 
         //.///public vector3Data bang;
     
   
-    public void Instance()
+    public IEnumerator Instance()
     { 
             
         var location = transform.position;
             
             
-        Instantiate(prefab,location , Quaternion.Euler(bang.value));
+       // Instantiate(prefab,location , Quaternion.Euler(bang.value));
 
-
+       yield break; 
     }
 }
