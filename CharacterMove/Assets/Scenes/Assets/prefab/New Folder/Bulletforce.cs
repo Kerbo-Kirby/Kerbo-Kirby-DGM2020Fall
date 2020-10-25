@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,13 +11,14 @@ public class Bulletforce : MonoBehaviour
     void Start()
     {
         rBody = GetComponent<Rigidbody>();
+
+  
+      
         var forceDirection = new Vector3(force, 0, 0);
-        rBody.AddRelativeForce(forceDirection);
+        rBody.AddRelativeForce(forceDirection );
         
         gameObject.SetActive((true));
 
 
-        new WaitForSeconds(1);
-   
     }
 }

@@ -11,9 +11,11 @@
           <e p="Assets" t="Include">
             <e p="prefab" t="Include">
               <e p="New Folder" t="Include">
+                <e p="activeFalse.cs" t="Include" />
                 <e p="Bulletforce.cs" t="Include" />
                 <e p="color.cs" t="Include" />
                 <e p="HealthTrigger.cs" t="Include" />
+                <e p="Instance.cs" t="Include" />
                 <e p="jumper.cs" t="Include" />
                 <e p="mouseshoot.cs" t="Include" />
                 <e p="move.cs" t="Include" />
@@ -23,6 +25,7 @@
                   <e p="Vector3Dataq.cs" t="Include" />
                 </e>
                 <e p="shoot.cs" t="Include" />
+                <e p="summonBehavior.cs" t="Include" />
               </e>
             </e>
           </e>

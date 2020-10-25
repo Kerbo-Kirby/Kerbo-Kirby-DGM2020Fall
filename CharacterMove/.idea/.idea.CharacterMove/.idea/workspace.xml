@@ -15,7 +15,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Bulletforce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Instance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/summonBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/activeFalse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/jumper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/color.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,13 +41,19 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Vector3Dataq.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/mouseshoot.cs" />
         <option value="$PROJECT_DIR$/Assets/mouse.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Bulletforce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/jumper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/move.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/HealthTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/intData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/color.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Bulletforce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/summonBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/exitTriggerevent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/activetrue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/activeFalse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Instance.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +114,8 @@
       <workItem from="1603481945469" duration="2073000" />
       <workItem from="1603487042265" duration="613000" />
       <workItem from="1603556821956" duration="3497000" />
-      <workItem from="1603566430287" duration="10496000" />
+      <workItem from="1603566430287" duration="11298000" />
+      <workItem from="1603644013000" duration="17435000" />
     </task>
     <servers />
   </component>

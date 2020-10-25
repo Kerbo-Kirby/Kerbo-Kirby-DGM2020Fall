@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.Jobs.LowLevel.Unsafe;
 using UnityEngine;
@@ -7,21 +8,25 @@ public class shoot : MonoBehaviour
 {
     public GameObject prefab;
 
-    public Rigidbody rBody;
-    public Vector3Dataq bang;
+
+    public Vector3Dataq ban;
+    public CharacterController con;
+
+    //.///public vector3Data bang;
 
 
-        //.///public vector3Data bang;
-    
-  
-    public IEnumerator Instance()
-    { 
-            
-        var location = transform.position;
-            
-            
-       // Instantiate(prefab,location , Quaternion.Euler(bang.value));
+    public void instance()
+    {
+        /// velocity of the rigid body
+        var velocity = con.velocity;
 
-       yield break; 
+         transform.Translate(Vector3.forward * Time.deltaTime);
+
+        //the instance calls it and the velocity is a vector 3 while the wyaternion is a rotation
+
+        Instantiate(prefab, velocity, Quaternion.Euler(ban.value));
+
+
+
     }
 }

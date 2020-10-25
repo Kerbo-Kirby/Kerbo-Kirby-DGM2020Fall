@@ -12,9 +12,17 @@ public class move : MonoBehaviour
     public float dart;
     public CharacterController con;
 
+    
+ 
+    
+    
     public void Start()
     {
         con = GetComponent<CharacterController>(); 
+        
+        
+        
+        
     }
 
 
