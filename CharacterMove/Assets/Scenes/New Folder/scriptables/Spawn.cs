@@ -7,50 +7,58 @@ using UnityEngine.UIElements;
 public class Spawn : MonoBehaviour
 {
     // [SerializeField] private CharacterController con;
-
+    public CharacterController controller;
 
     public intData health;
 
-    public Vector3Dataq spawnser, DeathSpawn;
-
-    public GameObject spawnPoint, player;
-
-    public intData healthMax;
-
+    public Vector3Dataq DeathSpawn;
+    
+    public GameObject player;
+  
+  
     public void Start()
     {
 
-        //  myLoc = GetComponent<Vector3>();
-
-        transform.position = spawnser.value;
-
-        healthMax.value = 5;
-
-
+       // controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        // transform.position = spawnser.value;
-
      
-        if (health.value <= 0 )
+
+
+        if (health.value <= 0)
         {
+            
+            player.transform.position = DeathSpawn.value;
 
 
-            transform.position = DeathSpawn.value ;
-            //transform.position = spawnPoint.transform.position;
-
-
-            health.value = 5;
+            health.value = 2;
+            
+            controller.enabled = true;
+            
+            
 
         }
+      
+
+        
+
+
+
+
+    }
+        
+        
+    // DeathSpawn.value = GetComponent<Vector3>();
+   
    //     else 
             
             
-
+   // transform.position = DeathSpawn.value;
+   //transform.position = spawnPoint.transform.position;
             
 
 
@@ -83,7 +91,7 @@ public class Spawn : MonoBehaviour
 
         }
 
-    }
+    
 
     
 

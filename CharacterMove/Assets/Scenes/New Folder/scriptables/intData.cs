@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+
 [CreateAssetMenu]
 public class intData : ScriptableObject
 
@@ -25,4 +27,8 @@ public class intData : ScriptableObject
     {
         value -= 1;
     }
+    
+    
+
+    
 }

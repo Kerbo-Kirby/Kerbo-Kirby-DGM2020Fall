@@ -1,18 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class floatData : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float value;
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateValue(float number)
     {
-        
+        value += number;
     }
+    
+    
+    public void SetImageFillAmount(Image imaag)
+    {
+        if (value >= 0 || value <= 1)
+        {
+            imaag.fillAmount = value;
+        }
+    }
+    
 }
+
+
+
+

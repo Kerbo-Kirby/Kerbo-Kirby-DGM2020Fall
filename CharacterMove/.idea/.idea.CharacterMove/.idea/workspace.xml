@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/floatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/stringData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,6 +47,10 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/activeFalse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Instance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/floatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/intData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/stringData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/Spawn.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +112,7 @@
       <workItem from="1603487042265" duration="613000" />
       <workItem from="1603556821956" duration="3497000" />
       <workItem from="1603566430287" duration="11298000" />
-      <workItem from="1603644013000" duration="18061000" />
+      <workItem from="1603644013000" duration="25978000" />
     </task>
     <servers />
   </component>
