@@ -33,8 +33,7 @@ public class CharaMoveBehavior : MonoBehaviour
 
 
         float hAxis = Input.GetAxis("Horizontal") * rotateSpeed;
-        transform.Rotate(0, hAxis, 0);
-
+     
         float vAxis = Input.GetAxis("Vertical") * moveSpeed;
 
 
