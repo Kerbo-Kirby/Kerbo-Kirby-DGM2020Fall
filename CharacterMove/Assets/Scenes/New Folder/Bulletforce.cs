@@ -10,6 +10,9 @@ public class Bulletforce : MonoBehaviour
 
     void Start()
     {
+        
+        
+        
         rBody = GetComponent<Rigidbody>();
 
   

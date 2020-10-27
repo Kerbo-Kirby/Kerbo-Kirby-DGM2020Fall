@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class Spawn : MonoBehaviour
 {
-    // [SerializeField] private CharacterController con;
+
     public CharacterController controller;
 
     public intData health;

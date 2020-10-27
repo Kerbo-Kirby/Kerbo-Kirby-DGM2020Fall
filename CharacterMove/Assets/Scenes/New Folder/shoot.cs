@@ -12,7 +12,7 @@ public class shoot : MonoBehaviour
     public Vector3Dataq ban;
     public CharacterController con;
 
-    //.///public vector3Data bang;
+ 
 
 
     public void instance()
@@ -20,7 +20,7 @@ public class shoot : MonoBehaviour
         /// velocity of the rigid body
         var velocity = con.velocity;
 
-         transform.Translate(Vector3.forward * Time.deltaTime);
+        // transform.Translate(Vector3.forward * Time.deltaTime);
 
         //the instance calls it and the velocity is a vector 3 while the wyaternion is a rotation
 
