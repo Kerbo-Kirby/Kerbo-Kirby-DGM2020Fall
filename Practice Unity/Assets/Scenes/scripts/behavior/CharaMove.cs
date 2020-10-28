@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 public class CharaMove : MonoBehaviour
 {
 
-    private  CharacterController controller;
+    public CharacterController controller;
     private Vector3 movement;
 
     public float rotateSpeed = 30f, gravity = -9.81f, jumpForce = 10f;

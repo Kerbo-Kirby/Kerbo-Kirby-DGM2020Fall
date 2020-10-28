@@ -20,7 +20,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/PlayerScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/PickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pickup.cs" />
@@ -70,6 +69,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharacterKnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/AIBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/collidetriger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/StickcharacterBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/behavior/CharaMove.cs" />
       </list>
     </option>
@@ -156,6 +156,7 @@
       <workItem from="1602530594550" duration="711000" />
       <workItem from="1602637034739" duration="1298000" />
       <workItem from="1602703075226" duration="1172000" />
+      <workItem from="1603844008185" duration="1080000" />
     </task>
     <servers />
   </component>

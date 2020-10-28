@@ -20,6 +20,7 @@
               <e p="Mouse Location Behavior.cs" t="Include" />
               <e p="MouseEvent.cs" t="Include" />
               <e p="MoveLocate.cs" t="Include" />
+              <e p="StickcharacterBehavior.cs" t="Include" />
               <e p="TriggereventBehavior.cs" t="Include" />
               <e p="TriggerEventBehavior1.cs" t="Include" />
               <e p="turret.cs" t="Include" />
