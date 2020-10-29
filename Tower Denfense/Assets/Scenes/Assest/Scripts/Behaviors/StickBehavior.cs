@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class StickBehavior : MonoBehaviour
 {
-   private void OnTriggerEnter(Collider other)
-    {
-        var otherTag = other.CompareTag("Pla");
-        if (otherTag)
-        {
-            transform.parent = other.transform;
-        }
-    }
+   //private void OnTriggerEnter(Collider other)
+  //  {
+        //var otherTag = other.CompareTag("Pla");
+       // if (otherTag)
+    //  /  {
+       // }
+ ////   }
 
-    private void OnTriggerExit(Collider other)
-    {
-        transform.parent = null;
-     }
+ //   private void OnTriggerExit(Collider other)
+  //  {
+   //     transform.parent = null;
+   //  }
 
 
 

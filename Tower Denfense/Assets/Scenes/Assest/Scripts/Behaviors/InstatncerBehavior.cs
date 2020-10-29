@@ -14,7 +14,7 @@ public class InstatncerBehavior : MonoBehaviour
     public void Instance()
     {
         var location = transform.position;
-        var newObj = Instantiate(prefab, location, Quaternion.Euler(rotAim.value));
+        var newObj = Instantiate(prefab);
 
 
         

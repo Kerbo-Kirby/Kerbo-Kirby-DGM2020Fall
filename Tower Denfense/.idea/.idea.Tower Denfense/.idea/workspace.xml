@@ -47,7 +47,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/destroyBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/enemyTurret.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/ememyFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/EnemyFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/enemyshootie.cs" />
@@ -58,9 +57,10 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/switchQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/CreatRespawnBehavoir.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/StickBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/barrierTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/InstatncerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/StickBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/CharaMoveBehavior.cs" />
       </list>
     </option>
@@ -124,6 +124,7 @@
       <workItem from="1603398404615" duration="3389000" />
       <workItem from="1603729326930" duration="1762000" />
       <workItem from="1603932819270" duration="1934000" />
+      <workItem from="1604002990719" duration="1070000" />
     </task>
     <servers />
   </component>

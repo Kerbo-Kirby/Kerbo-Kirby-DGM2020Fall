@@ -3,8 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+[RequireComponent(typeof(CharacterController))]
 public class CharaMoveBehavior : MonoBehaviour
 {
+
+
+   
     public float moveSpeed;
 
     private Rigidbody rBody;
@@ -22,7 +28,7 @@ public class CharaMoveBehavior : MonoBehaviour
     {
         con = GetComponent<CharacterController>();
 
-
+rBody = GetComponent<Rigidbody>();
 
 
     }
@@ -68,7 +74,7 @@ public class CharaMoveBehavior : MonoBehaviour
 
         Vector3 movement = new Vector3(hAxis, 0, vAxis) * moveSpeed * Time.deltaTime;
 
-        con.Move(transform.position = movement);
+        rBody.MovePosition(transform.position + movement);
     }
 }
 
