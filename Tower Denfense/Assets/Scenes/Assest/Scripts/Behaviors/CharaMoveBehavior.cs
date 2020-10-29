@@ -6,35 +6,40 @@ using UnityEngine;
 public class CharaMoveBehavior : MonoBehaviour
 {
     public float moveSpeed;
-    public float dart;
 
-    public float rotateSpeed;
     private Rigidbody rBody;
 
-    public float gravity = -2f;
-    private Vector3 playerY;
+    public float dart;
+    public CharacterController con;
 
-    public int jumpCount = 3;
-    public int jumpForce;
+    private float gravity = -10f;
 
-    public float yVarient;
-
-    private CharacterController controller;
+    private Vector3 plallyerY;
 
 
-    // Update is called once per frame
+
     public void Start()
     {
-        rBody = GetComponent<Rigidbody>();
+        con = GetComponent<CharacterController>();
+
+
+
+
     }
 
-    private void FixedUpdate()
+
+    void Update()
     {
 
+        plallyerY.y += gravity * Time.deltaTime;
+        
+        
+        
+        
+        var hAxis = Input.GetAxis("Horizontal");
 
-        float hAxis = Input.GetAxis("Horizontal") * rotateSpeed;
-     
-        float vAxis = Input.GetAxis("Vertical") * moveSpeed;
+        var vAxis = Input.GetAxis("Vertical");
+
 
 
 
@@ -42,32 +47,29 @@ public class CharaMoveBehavior : MonoBehaviour
 
 
 
-            moveSpeed = 20;
+            moveSpeed = 15;
 
         else
 
-            moveSpeed = 5;
+            moveSpeed = 10;
 
 
-        if (Input.GetKey(KeyCode.CapsLock) && (moveSpeed <= dart))
+
+        if (Input.GetKey(KeyCode.CapsLock) && (moveSpeed < dart))
 
 
-        
             moveSpeed = dart;
 
-        
-        
-        
 
-         
+        // movement = transform.TransformDirection(movement);
+        ///  con.Move(movement * Time.deltaTime);
 
 
-            Vector3 movement = new Vector3(hAxis, 0, vAxis) * moveSpeed * Time.deltaTime;
 
+        Vector3 movement = new Vector3(hAxis, 0, vAxis) * moveSpeed * Time.deltaTime;
 
-            rBody.MovePosition(transform.position + movement);
-
-        }
+        con.Move(transform.position = movement);
     }
+}
 
 

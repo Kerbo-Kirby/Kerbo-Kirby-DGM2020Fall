@@ -56,10 +56,11 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Intdata/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/Intdata/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/MouseEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/switchQuestion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/barrierTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/CreatRespawnBehavoir.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/StickBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/string/StringTextdata.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/barrierTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/CharaMoveBehavior.cs" />
       </list>
     </option>
@@ -122,6 +123,7 @@
       <workItem from="1603325596982" duration="4180000" />
       <workItem from="1603398404615" duration="3389000" />
       <workItem from="1603729326930" duration="1762000" />
+      <workItem from="1603932819270" duration="1934000" />
     </task>
     <servers />
   </component>

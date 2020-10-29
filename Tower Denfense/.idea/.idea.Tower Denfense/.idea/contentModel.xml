@@ -17,6 +17,7 @@
                 <e p="EnemyFire.cs" t="Include" />
                 <e p="InstatncerBehavior.cs" t="Include" />
                 <e p="MouseEventBehavior.cs" t="Include" />
+                <e p="StickBehavior.cs" t="Include" />
               </e>
               <e p="scriptables" t="Include">
                 <e p="enemyshootie.cs" t="Include" />

@@ -27,18 +27,18 @@ public class StringTextdata : ScriptableObject
         i = 0;
     }
     
-    
-    
-    public void GetNextString()
-    {
-        returnValue = dialog[i];
-        i = (i + 1) % dialog.Count;
-    }
+      
     
 
     // Update is called once per frame
   public void SetTextuiToValue (Text obj)
   {
+      
+      returnValue = dialog[i];
+      i = (i + 1) % dialog.Count;
+  
+      
+      
       obj.text = returnValue;
   }
 }

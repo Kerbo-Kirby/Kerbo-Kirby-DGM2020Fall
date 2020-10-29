@@ -11,19 +11,12 @@ public class barrierTrigger : MonoBehaviour
 
   
     
-    private void Start()
-    {
-
-
-      
-
-    }
-
+ 
     public void OnTriggerEnter(Collider other)
     {
-       
-        speed = transform.position * Time.deltaTime;
-        Instantiate(obj, loc.value, Quaternion.Euler(loc.value));
+
+        transform.position = loc.value;
+     
   
         
         
