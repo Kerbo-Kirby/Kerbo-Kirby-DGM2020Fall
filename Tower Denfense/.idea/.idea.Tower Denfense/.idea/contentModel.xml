@@ -15,22 +15,21 @@
                 <e p="CharaMoveBehavior.cs" t="Include" />
                 <e p="destroyBullet.cs" t="Include" />
                 <e p="EnemyFire.cs" t="Include" />
-                <e p="InstatncerBehavior.cs" t="Include" />
-                <e p="MouseEventBehavior.cs" t="Include" />
-                <e p="StickBehavior.cs" t="Include" />
-              </e>
-              <e p="scriptables" t="Include">
                 <e p="enemyshootie.cs" t="Include" />
                 <e p="enemyTurret.cs" t="Include" />
+                <e p="InstatncerBehavior.cs" t="Include" />
+                <e p="MouseEventBehavior.cs" t="Include" />
+                <e p="OntriggerEvent.cs" t="Include" />
+                <e p="StickBehavior.cs" t="Include" />
+                <e p="trigerMouse.cs" t="Include" />
+              </e>
+              <e p="enemypatralPractice.cs" t="Include" />
+              <e p="scriptables" t="Include">
                 <e p="Intdata" t="Include">
-                  <e p="IntData.cs" t="Include" />
                   <e p="Spawn.cs" t="Include" />
                 </e>
-                <e p="OntriggerEvent.cs" t="Include" />
-                <e p="string" t="Include">
-                  <e p="StringTextdata.cs" t="Include" />
-                </e>
-                <e p="trigerMouse.cs" t="Include" />
+                <e p="IntData.cs" t="Include" />
+                <e p="StringTextdata.cs" t="Include" />
                 <e p="Vector3Data.cs" t="Include" />
               </e>
             </e>

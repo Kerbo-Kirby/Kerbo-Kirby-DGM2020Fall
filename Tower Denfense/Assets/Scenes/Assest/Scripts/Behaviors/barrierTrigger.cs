@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class barrierTrigger : MonoBehaviour
 {
-    public Transform obj;
+    public GameObject obj;
     public Vector3 speed;
 
     public Vector3Data loc;
 
-  
+    public void  start()
+    {
+        
+        
+       obj.SetActive(false);
+        
+    }
     
  
     public void OnTriggerEnter(Collider other)
     {
 
-        transform.position = loc.value;
-     
-  
+        obj.transform.position = loc.value;
         
+        obj.SetActive(true);
         
         ///this made it a bomb im keeping this for later
         //   if (gameObject)
@@ -29,7 +34,7 @@ public class barrierTrigger : MonoBehaviour
             
          //   gameObject.SetActive(true);
 
-         return; //new WaitForSeconds(1);
+      
          //  }
     }
 
