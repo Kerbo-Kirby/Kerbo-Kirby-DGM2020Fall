@@ -3,6 +3,7 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>
@@ -17,12 +18,9 @@
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Martys-class</Path>
+      <Path>Temp</Path>
       <Path>class</Path>
-      <Path>marty</Path>
-      <Path>martygame</Path>
       <Path>obj</Path>
-      <Path>unitymarty</Path>
     </explicitExcludes>
   </component>
 </project>

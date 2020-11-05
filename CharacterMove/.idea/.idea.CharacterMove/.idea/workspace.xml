@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Bulletforce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/move.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +116,7 @@
       <workItem from="1603556821956" duration="3497000" />
       <workItem from="1603566430287" duration="11298000" />
       <workItem from="1603644013000" duration="28564000" />
+      <workItem from="1604557863605" duration="317000" />
     </task>
     <servers />
   </component>

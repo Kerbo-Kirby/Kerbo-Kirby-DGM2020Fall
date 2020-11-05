@@ -6,7 +6,6 @@
     <e p="C:\Users\peyto\Documents\Fall2020\Kerbo-Kirby-DGM2020Fall\CharacterMove" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="mouse.cs" t="Include" />
         <e p="Scenes" t="Include">
           <e p="New Folder" t="Include">
             <e p="activeFalse.cs" t="Include" />
@@ -15,6 +14,7 @@
             <e p="HealthTrigger.cs" t="Include" />
             <e p="Instance.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
+            <e p="mouse.cs" t="Include" />
             <e p="mouseshoot.cs" t="Include" />
             <e p="move.cs" t="Include" />
             <e p="scriptables" t="Include">

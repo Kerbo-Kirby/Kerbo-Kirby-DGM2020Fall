@@ -39,11 +39,11 @@ public class move : MonoBehaviour
 
 
 
-            moveSpeed = 15;
+            moveSpeed = 30;
 
         else
 
-            moveSpeed = 10;
+            moveSpeed = 20;
 
 
 
