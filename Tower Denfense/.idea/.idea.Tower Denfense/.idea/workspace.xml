@@ -62,6 +62,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/Behaviors/barrierTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/enemypatralPractice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/enemypatralPractice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/charaBraint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Assest/Scripts/scriptables/NewBehaviourScript.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +128,7 @@
       <workItem from="1603932819270" duration="1934000" />
       <workItem from="1604002990719" duration="1070000" />
       <workItem from="1604088928205" duration="3677000" />
+      <workItem from="1604644132146" duration="1186000" />
     </task>
     <servers />
   </component>

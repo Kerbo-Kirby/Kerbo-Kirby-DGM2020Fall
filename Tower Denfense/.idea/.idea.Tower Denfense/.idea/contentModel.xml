@@ -25,10 +25,12 @@
               </e>
               <e p="enemypatralPractice.cs" t="Include" />
               <e p="scriptables" t="Include">
+                <e p="charaBraint.cs" t="Include" />
                 <e p="Intdata" t="Include">
                   <e p="Spawn.cs" t="Include" />
                 </e>
                 <e p="IntData.cs" t="Include" />
+                <e p="NewBehaviourScript.cs" t="Include" />
                 <e p="StringTextdata.cs" t="Include" />
                 <e p="Vector3Data.cs" t="Include" />
               </e>
