@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d86f610fdb94704cb7e02917558722a, type: 3}
+  m_Name: guard 1 dialog
+  m_EditorClassIdentifier: 
+  dialog:
+  - hey could you please help me?
+  - i dropped a very IMPORTANT item in the lions den
+  - If you get it I'll give you something niiiceee
+  - its an elemental spell!
+  - you know like that one tv show....bavatar?
