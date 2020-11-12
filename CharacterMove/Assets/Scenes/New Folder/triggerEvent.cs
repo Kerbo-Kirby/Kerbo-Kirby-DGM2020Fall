@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class HealthTrigger : MonoBehaviour
+public class triggerEvent : MonoBehaviour
 {
 
 
-    public UnityEvent playerOwchy;
+    public UnityEvent trig;
     
     
     
@@ -20,7 +20,7 @@ public class HealthTrigger : MonoBehaviour
     {
        
        
-      playerOwchy.Invoke();
+      trig.Invoke();
     
       
     }

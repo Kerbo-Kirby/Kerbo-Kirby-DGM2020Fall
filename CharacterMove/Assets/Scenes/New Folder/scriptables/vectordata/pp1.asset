@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb1b2e5e6b314c34abbdbb850f1c53da, type: 3}
-  m_Name: respwn
+  m_Name: pp1
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 49, z: 250}
+  value: {x: 433, y: 82, z: 208}

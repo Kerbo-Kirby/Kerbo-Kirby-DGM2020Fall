@@ -19,14 +19,14 @@ public class summonBehavior : MonoBehaviour
     void Start()
     {
         /// i dont want the player to see it at first so i want to hide it
-        summonItem.SetActive(false);
+       /// summonItem.SetActive(false);
       
     }
 
     //  on enter it will activate and be called  on a location. so if you lose it you can summon it back!
     private void OnTriggerEnter(Collider other)
     {
-        summonItem.SetActive(true);
+      //  summonItem.SetActive(true);
         
         summonItem.transform. position = SummonLocation.value;
 
