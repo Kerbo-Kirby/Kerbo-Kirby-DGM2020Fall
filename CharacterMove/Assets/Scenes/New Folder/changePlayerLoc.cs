@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,14 +13,38 @@ public class changePlayerLoc : MonoBehaviour
 
 
   public int index;
-  public string area1;
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
+  public string newScene;
 
-            SceneManager.LoadScene(index);
-        SceneManager.LoadScene(area1);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                     //  transform.position = changeLoc.value;
+
+  public GameObject cam;
+  public GameObject otherCam;
+  
+
+ 
+  void OnTriggerEnter(Collider other)
+  {
+      
+
+     
+       transform.position = changeLoc.value;
+
+      SceneManager.LoadSceneAsync(newScene, LoadSceneMode.Additive);
+        
+     
+
+
+      // SceneManager.LoadScene(newScene, LoadSceneMode.Additive);
+       
+       SceneManager.GetActiveScene();
+       
+        SceneManager.MoveGameObjectToScene(player,SceneManager.GetSceneByName(newScene));
+        SceneManager.MoveGameObjectToScene(cam,SceneManager.GetSceneByName(newScene));
+        SceneManager.MoveGameObjectToScene(otherCam,SceneManager.GetSceneByName(newScene));
+        
+        
+        
+            
+           SceneManager.UnloadSceneAsync(1);
+      
     }
 }

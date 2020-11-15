@@ -10,6 +10,7 @@
           <e p="New Folder" t="Include">
             <e p="activeFalse.cs" t="Include" />
             <e p="Bulletforce.cs" t="Include" />
+            <e p="cameraChnage.cs" t="Include" />
             <e p="changePlayerLoc.cs" t="Include" />
             <e p="color.cs" t="Include" />
             <e p="Instance.cs" t="Include" />
