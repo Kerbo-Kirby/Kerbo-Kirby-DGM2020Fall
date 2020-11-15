@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb1b2e5e6b314c34abbdbb850f1c53da, type: 3}
   m_Name: pp2
   m_EditorClassIdentifier: 
-  value: {x: 433, y: 70, z: 208}
+  value: {x: 428, y: 82, z: 200}

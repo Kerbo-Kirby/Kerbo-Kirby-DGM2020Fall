@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb1b2e5e6b314c34abbdbb850f1c53da, type: 3}
   m_Name: New Vector 3 Dataq
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 0, z: 0}
+  value: {x: 224, y: -63.4, z: 217}

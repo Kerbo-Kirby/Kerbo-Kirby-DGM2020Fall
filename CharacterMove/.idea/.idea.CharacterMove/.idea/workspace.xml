@@ -57,8 +57,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/summonBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/changePlayerLoc.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/triggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/changePlayerLoc.cs" />
       </list>
     </option>
   </component>
@@ -125,6 +125,7 @@
       <workItem from="1605073199070" duration="997000" />
       <workItem from="1605128674679" duration="105000" />
       <workItem from="1605129308551" duration="3310000" />
+      <workItem from="1605391939959" duration="4281000" />
     </task>
     <servers />
   </component>
