@@ -15,6 +15,7 @@
             <e p="color.cs" t="Include" />
             <e p="Instance.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
+            <e p="mainMenu.cs" t="Include" />
             <e p="mouse.cs" t="Include" />
             <e p="mouseshoot.cs" t="Include" />
             <e p="move.cs" t="Include" />
