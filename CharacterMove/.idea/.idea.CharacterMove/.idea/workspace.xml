@@ -12,8 +12,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/floatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/changeBackLoc.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/triggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/cameraChnage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/stringData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -61,6 +61,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/triggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/cameraChnage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/changePlayerLoc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/changeBackLoc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs" />
       </list>
     </option>
   </component>
@@ -129,6 +131,7 @@
       <workItem from="1605129308551" duration="3310000" />
       <workItem from="1605391939959" duration="4281000" />
       <workItem from="1605470892013" duration="7672000" />
+      <workItem from="1605546735615" duration="10952000" />
     </task>
     <servers />
   </component>
@@ -209,5 +212,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603559392469" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs</url>
+          <line>29</line>
+          <properties documentPath="C:\Users\peyto\Documents\Fall2020\Kerbo-Kirby-DGM2020Fall\CharacterMove\Assets\Scenes\New Folder\Pause.cs" initialLine="41">
+            <startOffsets>
+              <option value="486" />
+            </startOffsets>
+            <endOffsets>
+              <option value="487" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

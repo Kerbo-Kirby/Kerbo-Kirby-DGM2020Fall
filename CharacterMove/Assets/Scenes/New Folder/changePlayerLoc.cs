@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class changePlayerLoc : MonoBehaviour
 {
     public Vector3Dataq changeLoc;
-    public Transform transLoc;
+   /// public Transform transLoc;
 
     public GameObject player;
   // Update is called once per frame
 
 
-  public int index;
+ /// public int index;
   public string newScene;
 
 
@@ -23,28 +23,32 @@ public class changePlayerLoc : MonoBehaviour
  
   void OnTriggerEnter(Collider other)
   {
-      
-
-     
-       transform.position = changeLoc.value;
-
-      SceneManager.LoadSceneAsync(newScene, LoadSceneMode.Additive);
-        
-     
 
 
-      // SceneManager.LoadScene(newScene, LoadSceneMode.Additive);
-       
-       SceneManager.GetActiveScene();
-       
-        SceneManager.MoveGameObjectToScene(player,SceneManager.GetSceneByName(newScene));
-        SceneManager.MoveGameObjectToScene(cam,SceneManager.GetSceneByName(newScene));
-        SceneManager.MoveGameObjectToScene(otherCam,SceneManager.GetSceneByName(newScene));
+      if (player.gameObject.CompareTag("Player"))
+      {
+          player.gameObject.transform.position = changeLoc.value;
+
+
+
+
+          SceneManager.LoadSceneAsync(newScene, LoadSceneMode.Additive);
+
+
+
+
+          //SceneManager.LoadScene(newScene, LoadSceneMode.Additive);
+
+          SceneManager.GetActiveScene();
+
+          SceneManager.MoveGameObjectToScene(player, SceneManager.GetSceneByName(newScene));
+          SceneManager.MoveGameObjectToScene(cam, SceneManager.GetSceneByName(newScene));
+          SceneManager.MoveGameObjectToScene(otherCam, SceneManager.GetSceneByName(newScene));
+
+
         
-        
-        
-            
-           SceneManager.UnloadSceneAsync(1);
-      
-    }
+          SceneManager.UnloadSceneAsync(1);
+      }
+
+  }
 }

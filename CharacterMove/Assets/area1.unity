@@ -596,10 +596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb00069254322e429ab56440a839f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeLoc: {fileID: 11400000, guid: 1441a4574e663974c8b67f598bb37ab7, type: 2}
-  transLoc: {fileID: 0}
+  changeLoc: {fileID: 11400000, guid: 13941109abd2f0248955fbc511092867, type: 2}
   player: {fileID: 604072838}
-  index: 0
   newScene: poache save
   cam: {fileID: 1767413767}
   otherCam: {fileID: 2072188922}
@@ -741,6 +739,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &604072846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604072838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84edcda804119146993d753abbf9598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseTime: 0
 --- !u!1001 &773882601
 PrefabInstance:
   m_ObjectHideFlags: 0
