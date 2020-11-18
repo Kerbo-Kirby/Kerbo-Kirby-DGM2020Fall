@@ -48,6 +48,10 @@ public class changePlayerLoc : MonoBehaviour
 
         
           SceneManager.UnloadSceneAsync(1);
+          
+          
+          //Debug.Log("Loading " + switchSceneTo + " Scene"); 
+          
       }
 
   }

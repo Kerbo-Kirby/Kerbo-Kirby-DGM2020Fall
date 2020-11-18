@@ -8,34 +8,54 @@ public class Pause : MonoBehaviour
 {
 
 
-    public bool pauseTime = false;
+    public static bool pauseTime;
 
+    [SerializeField] private GameObject pauseMenu;
 
-
-
-   
-
-   
-
-    public void Update()
+    public void Start()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        pauseMenu.SetActive(false);
+    }
+
+    void PPause()
+    {
+        if (pauseTime)
         {
-            if (pauseTime)
+            Time.timeScale = 0f;
+            pauseMenu.SetActive(true);
 
-                Time.timeScale = 1f;
-
-
-
-            else
-                Time.timeScale = 0f;
-            pauseTime = !pauseTime;
 
         }
 
+        else
+        {
+            pauseMenu.SetActive(false);
 
+            Time.timeScale = 1f;
+        }
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse2))
+        {
+            pauseTime = !pauseTime;
+            PPause();
+        }
+    }
+
+
+    
 }
+
+
+
+
+
+        
+
+
+    
 
 
 
