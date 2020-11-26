@@ -57,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Bulletforce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/move.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/summonBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/triggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/cameraChnage.cs" />
@@ -65,6 +64,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/changePlayerLoc.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/mainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/brains.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Patrol.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +137,8 @@
       <workItem from="1605546735615" duration="10952000" />
       <workItem from="1605653437478" duration="3767000" />
       <workItem from="1605717686500" duration="5479000" />
-      <workItem from="1605727245790" duration="2387000" />
+      <workItem from="1605727245790" duration="3096000" />
+      <workItem from="1606337886082" duration="3966000" />
     </task>
     <servers />
   </component>
