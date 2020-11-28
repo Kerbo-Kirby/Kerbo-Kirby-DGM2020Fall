@@ -11,13 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/switchAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/floatData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/mainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/changeBackLoc.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/triggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/stringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +65,8 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/switchAbility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +141,7 @@
       <workItem from="1605727245790" duration="3096000" />
       <workItem from="1606337886082" duration="3966000" />
       <workItem from="1606527101596" duration="6495000" />
+      <workItem from="1606591777264" duration="9811000" />
     </task>
     <servers />
   </component>

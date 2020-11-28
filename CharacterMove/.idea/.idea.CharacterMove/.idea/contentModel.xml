@@ -7,14 +7,14 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scenes" t="Include">
-          <e p="New Folder" t="Include">
+          <e p="AbiltlytOBJ.cs" t="Include" />
+          <e p="brains.cs" t="Include" />
+          <e p="scripts" t="Include">
             <e p="activeFalse.cs" t="Include" />
             <e p="Bulletforce.cs" t="Include" />
-            <e p="changeBackLoc.cs" t="Include" />
-            <e p="changePlayerLoc.cs" t="Include" />
-            <e p="color.cs" t="Include" />
             <e p="Instance.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
+            <e p="locationChange.cs" t="Include" />
             <e p="mainMenu.cs" t="Include" />
             <e p="mouse.cs" t="Include" />
             <e p="mouseshoot.cs" t="Include" />
@@ -22,15 +22,13 @@
             <e p="Patrol.cs" t="Include" />
             <e p="Pause.cs" t="Include" />
             <e p="scriptables" t="Include">
-              <e p="AbiltlytOBJ.cs" t="Include" />
-              <e p="brains.cs" t="Include" />
               <e p="floatData.cs" t="Include" />
               <e p="intData.cs" t="Include" />
-              <e p="Spawn.cs" t="Include" />
               <e p="stringData.cs" t="Include" />
               <e p="Vector3Dataq.cs" t="Include" />
             </e>
             <e p="shoot.cs" t="Include" />
+            <e p="Spawn.cs" t="Include" />
             <e p="summonBehavior.cs" t="Include" />
             <e p="switchAbility.cs" t="Include" />
             <e p="timeSummon.cs" t="Include" />

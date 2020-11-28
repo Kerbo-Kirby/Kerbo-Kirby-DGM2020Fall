@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -17,7 +18,7 @@ public class Patrol : MonoBehaviour
     private bool canHurt, canPP;
 
     private NavMeshAgent secretAgent;
-    
+    private Transform des;
     public List<Vector3Dataq> ppPoints;
 
     void Start()
@@ -25,6 +26,30 @@ public class Patrol : MonoBehaviour
 
         secretAgent = GetComponent<NavMeshAgent>();
 
+        StartCoroutine(guardPoint());
+    }
+    private IEnumerator OnTriggerEnter(Collider other)
+    {
+        canHurt = true;
+        canPP = false;
+        secretAgent.destination = des.position;
+        var distance = secretAgent.remainingDistance;
+        while (distance <= 0.25f)
+        {
+            distance = secretAgent.remainingDistance;
+            yield return wtf;
+        }
+        yield return new WaitForSeconds(2f);
+
+        StartCoroutine(canHurt ? OnTriggerEnter(other) : guardPoint());
+    }
+    
+    
+    
+    
+    private void OnTriggerExit(Collider other)
+    {
+        canHurt = false;
         StartCoroutine(guardPoint());
     }
 
@@ -43,4 +68,6 @@ public class Patrol : MonoBehaviour
             i = (i + 1) % ppPoints.Count;
         }
     }
+
+  
 }
