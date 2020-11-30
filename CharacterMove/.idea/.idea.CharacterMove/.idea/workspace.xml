@@ -64,9 +64,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/switchAbility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
       </list>
     </option>
   </component>
@@ -143,6 +143,8 @@
       <workItem from="1606527101596" duration="6495000" />
       <workItem from="1606591777264" duration="9811000" />
       <workItem from="1606677088665" duration="6720000" />
+      <workItem from="1606754512373" duration="1000" />
+      <workItem from="1606757664428" duration="2459000" />
     </task>
     <servers />
   </component>

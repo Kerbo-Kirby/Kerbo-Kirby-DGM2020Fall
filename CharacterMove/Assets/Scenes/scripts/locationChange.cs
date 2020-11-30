@@ -12,13 +12,17 @@ public class locationChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    
         
     }
 
-   public void update()
+    public void OnTriggerEnter(Collider player)
     {
-       if(CompareTag("Player"))
-        transform.position = locChange.value;
+      
+            player.transform.position = locChange.value;
            
     }
+ 
 }
+
+
