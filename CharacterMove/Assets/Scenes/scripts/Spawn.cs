@@ -11,48 +11,45 @@ public class Spawn : MonoBehaviour
 
     public intData health;
 
-    public Vector3Dataq DeathSpawn;
-    
+    public Vector3Dataq deathSpawn;
+
     public GameObject player;
-  
-  
+
+
     public void Start()
     {
-
-       // controller = GetComponent<CharacterController>();
+        health.value = 5;
+        controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-
-     
-
 
         if (health.value <= 0)
         {
-            
-            player.transform.position = DeathSpawn.value;
+
+           transform.position = deathSpawn.value;
 
 
-            health.value = 2;
-            
+            health.value = 5;
+
             controller.enabled = true;
-            
-            
+
+
 
         }
-      
 
-        
+
+
 
 
 
 
     }
-        
-        
-    // DeathSpawn.value = GetComponent<Vector3>();
+}
+
+
+// DeathSpawn.value = GetComponent<Vector3>();
    
    //     else 
             
@@ -89,7 +86,7 @@ public class Spawn : MonoBehaviour
 
 
 
-        }
+        
 
     
 
