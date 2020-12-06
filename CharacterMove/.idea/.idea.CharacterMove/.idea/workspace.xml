@@ -12,12 +12,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/New Folder/intData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/Jumpy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/CharacterMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/New Folder/Matscriptable.cs" />
@@ -64,9 +63,11 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/switchAbility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/intData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +146,7 @@
       <workItem from="1606677088665" duration="6720000" />
       <workItem from="1606754512373" duration="1000" />
       <workItem from="1606757664428" duration="2459000" />
+      <workItem from="1607197234770" duration="8084000" />
     </task>
     <servers />
   </component>

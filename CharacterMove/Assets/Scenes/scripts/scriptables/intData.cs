@@ -9,11 +9,13 @@ public class intData : ScriptableObject
 
 {
 
-
+    //public healthBar healthslider;
     public int value;
     // Start is called before the first frame update
     void Start()
     {
+        
+        
         
     }
 
@@ -26,6 +28,8 @@ public class intData : ScriptableObject
     public void damage(int amount)
     {
         value -= 1;
+        
+      ///  healthslider.BarHealth();
     }
     
     

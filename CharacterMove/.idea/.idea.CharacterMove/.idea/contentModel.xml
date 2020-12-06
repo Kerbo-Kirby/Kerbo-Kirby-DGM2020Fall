@@ -12,6 +12,7 @@
           <e p="scripts" t="Include">
             <e p="activeFalse.cs" t="Include" />
             <e p="Bulletforce.cs" t="Include" />
+            <e p="healthBar.cs" t="Include" />
             <e p="Instance.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
             <e p="locationChange.cs" t="Include" />

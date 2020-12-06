@@ -9,28 +9,30 @@ public class Spawn : MonoBehaviour
 
     public CharacterController controller;
 
-    public intData health;
+    public intData health,maxhealth;
 
     public Vector3Dataq deathSpawn;
 
-    public GameObject player;
+  //  public GameObject player;
 
-
+   public healthBar healthslider; 
     public void Start()
     {
-        health.value = 5;
+        
         controller = GetComponent<CharacterController>();
+     healthslider.MaxSlide(maxhealth.value);
     }
 
     public void Update()
     {
-
+        healthslider.BarHealth(health.value);
         if (health.value <= 0)
         {
 
            transform.position = deathSpawn.value;
 
-
+          
+           
             health.value = 5;
 
             controller.enabled = true;
