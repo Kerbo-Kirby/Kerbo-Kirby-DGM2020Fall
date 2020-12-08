@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class locationChange : MonoBehaviour
 {
-    public Transform player;
+   /// public Transform player;
 
     public Vector3Dataq locChange;
-    
+
+    public CharacterController player;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +17,12 @@ public class locationChange : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter(Collider player)
+    public void update()
     {
-      
-            player.transform.position = locChange.value;
-           
+
+
+        player.transform.position = locChange.value;
+       player.enabled = true;
     }
  
 }

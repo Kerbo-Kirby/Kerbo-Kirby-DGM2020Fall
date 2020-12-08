@@ -39,7 +39,7 @@ public class Pause : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse2))
         {
-            pauseTime = !pauseTime;
+            pauseTime = pauseTime;
             PPause();
         }
     }

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+
 [CreateAssetMenu]
 public class Vector3Dataq : ScriptableObject
 {
@@ -23,5 +25,28 @@ public class Vector3Dataq : ScriptableObject
     public void SetValueFromPosition(Transform obj)
     {
         value = obj.position;
+    }
+
+    public void SetPositionFromValue(Transform obj)
+    {
+        obj.position = value;
+    }
+
+    public void SetValueFromRotation(Transform obj)
+    {
+        value = obj.eulerAngles;
+    }
+
+    public void some(Transform obj)
+    {
+        obj.position += value;
+
+    }
+    public void SetFromMousePosition(Camera cam)
+    {
+        if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition),out var hit, 100))
+        {    
+            value = hit.point;
+        }
     }
 }

@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb1b2e5e6b314c34abbdbb850f1c53da, type: 3}
-  m_Name: pp1
+  m_Name: intoLion
   m_EditorClassIdentifier: 
-  value: {x: -30, y: 0, z: 155}
+  value: {x: -0, y: 0, z: 0}
