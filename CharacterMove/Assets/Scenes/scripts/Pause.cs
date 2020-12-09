@@ -17,6 +17,12 @@ public class Pause : MonoBehaviour
         pauseMenu.SetActive(false);
     }
 
+    
+    
+    
+    
+    
+    
     void PPause()
     {
         if (pauseTime)
@@ -35,11 +41,13 @@ public class Pause : MonoBehaviour
         }
     }
 
+    
+    
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse2))
         {
-            pauseTime = pauseTime;
+            pauseTime = pauseMenu;
             PPause();
         }
     }

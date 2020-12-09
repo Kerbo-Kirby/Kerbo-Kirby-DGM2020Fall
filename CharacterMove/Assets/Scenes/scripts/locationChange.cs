@@ -19,19 +19,20 @@ public class locationChange : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter(Collider player)
+    public void OnTriggerEnter(Collider other)
     {
-        if (player.gameObject.name == "Player")
+       
         {
-           player.transform.position = locChange.value;
             
             
+          locChange.value =  gameObject.transform.position;
             
+     
             
             Debug.Log("im ober here");
         }
-        else 
-            Debug.Log("what happended?");
+       // else 
+           // Debug.Log("what happended?");
     }
 }
 

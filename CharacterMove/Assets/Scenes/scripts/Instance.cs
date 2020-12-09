@@ -13,7 +13,10 @@ public class Instance : MonoBehaviour
     //.///public vector3Data bang;
 
 
-    public void instance ()
+   
+    
+    
+    public void instancer ()
     {
 // velocity of the rigid body
 

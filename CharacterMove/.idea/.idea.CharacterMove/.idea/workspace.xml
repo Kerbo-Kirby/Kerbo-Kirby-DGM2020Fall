@@ -11,19 +11,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/quit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idScriptable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/mouseBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/behavoir/TriggerBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/behavoir/MouseEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/New Folder/shoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/instance.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/scriptables/Vector3Dataq.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/mouseshoot.cs" />
         <option value="$PROJECT_DIR$/Assets/mouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/jumper.cs" />
@@ -60,15 +56,21 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/intData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/Vector3Dataq.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemeyhealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/mouseshoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/quit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/animationtrig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idScriptable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idHold.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pause.cs" />
       </list>
     </option>
   </component>
@@ -152,6 +154,8 @@
       <workItem from="1607305651198" duration="831000" />
       <workItem from="1607369612891" duration="9178000" />
       <workItem from="1607468606891" duration="12569000" />
+      <workItem from="1607533952072" duration="13658000" />
+      <workItem from="1607554852149" duration="583000" />
     </task>
     <servers />
   </component>

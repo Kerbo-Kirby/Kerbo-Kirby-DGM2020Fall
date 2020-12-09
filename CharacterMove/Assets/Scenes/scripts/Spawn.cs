@@ -29,7 +29,7 @@ public class Spawn : MonoBehaviour
         if (health.value <= 0)
         {
 
-           transform.position = deathSpawn.value;
+          deathSpawn.value =  transform.position ;
 
           
            

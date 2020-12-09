@@ -6,21 +6,24 @@ using UnityEngine;
 
 public class shoot : MonoBehaviour
 {
-    public GameObject prefab;
+    public Transform prefab;
 
 
     public Vector3Dataq ban;
     public CharacterController con;
 
- 
+    public void Start()
+    {
+        
+    }
 
 
-    public void instance()
+    public void instancevv()
     {
         /// velocity of the rigid body
         var velocity = con.velocity;
 
-        // transform.Translate(Vector3.forward * Time.deltaTime);
+        transform.Translate(ban.value* Time.deltaTime);
 
         //the instance calls it and the velocity is a vector 3 while the wyaternion is a rotation
 

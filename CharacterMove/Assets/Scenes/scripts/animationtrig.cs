@@ -9,7 +9,7 @@ public class animationtrig : MonoBehaviour
 
    
     {
-        private void Update()
+        public void Update()
         {
 if(Input.GetKey(KeyCode.G))
             if (gameObject.CompareTag("Player")) {

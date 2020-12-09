@@ -23,8 +23,11 @@
             <e p="move.cs" t="Include" />
             <e p="Patrol.cs" t="Include" />
             <e p="Pause.cs" t="Include" />
+            <e p="quit.cs" t="Include" />
             <e p="scriptables" t="Include">
               <e p="floatData.cs" t="Include" />
+              <e p="idHold.cs" t="Include" />
+              <e p="idScriptable.cs" t="Include" />
               <e p="intData.cs" t="Include" />
               <e p="stringData.cs" t="Include" />
               <e p="Vector3Dataq.cs" t="Include" />
