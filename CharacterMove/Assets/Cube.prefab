@@ -102,7 +102,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7950748025457626798}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 3f968df880bf7f543acf3eb8da556ec7, type: 2}
   m_Animations:
@@ -124,7 +124,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8ff9df323971530409a1e377ac523e1f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

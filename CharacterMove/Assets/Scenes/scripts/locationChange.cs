@@ -1,30 +1,37 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class locationChange : MonoBehaviour
 {
-   /// public Transform player;
+    /// public Transform player;
 
     public Vector3Dataq locChange;
 
-    public CharacterController player;
-    // Start is called before the first frame update
+    public GameObject player;
+
+
     void Start()
     {
-    
-        
+
+
     }
 
-    public void update()
+    public void OnTriggerEnter(Collider player)
     {
-
-
-        player.transform.position = locChange.value;
-       player.enabled = true;
+        if (player.gameObject.name == "Player")
+        {
+           player.transform.position = locChange.value;
+            
+            
+            
+            
+            Debug.Log("im ober here");
+        }
+        else 
+            Debug.Log("what happended?");
     }
- 
 }
-
 

@@ -12,13 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/New Folder/spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/mouseBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/behavoir/TriggerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Assets/Scrpts/behavoir/MouseEvent.cs" />
@@ -62,13 +61,14 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/intData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/animationtrig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/Vector3Dataq.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemeyhealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/animationtrig.cs" />
       </list>
     </option>
   </component>
@@ -151,6 +151,7 @@
       <workItem from="1607277888160" duration="6623000" />
       <workItem from="1607305651198" duration="831000" />
       <workItem from="1607369612891" duration="9178000" />
+      <workItem from="1607468606891" duration="12569000" />
     </task>
     <servers />
   </component>

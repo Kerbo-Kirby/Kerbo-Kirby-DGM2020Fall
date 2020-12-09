@@ -21,7 +21,6 @@
             <e p="mouse.cs" t="Include" />
             <e p="mouseshoot.cs" t="Include" />
             <e p="move.cs" t="Include" />
-            <e p="NewBehaviourScript.cs" t="Include" />
             <e p="Patrol.cs" t="Include" />
             <e p="Pause.cs" t="Include" />
             <e p="scriptables" t="Include">
@@ -32,6 +31,7 @@
             </e>
             <e p="shoot.cs" t="Include" />
             <e p="Spawn.cs" t="Include" />
+            <e p="stick.cs" t="Include" />
             <e p="summonBehavior.cs" t="Include" />
             <e p="timeSummon.cs" t="Include" />
             <e p="triggerEvent.cs" t="Include" />

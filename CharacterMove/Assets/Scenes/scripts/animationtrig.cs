@@ -3,27 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
-
+[RequireComponent(typeof(Animator))]
 public class animationtrig : MonoBehaviour
-{
-    // Start is called before the first frame update
-    public bool enter;
-    public Animator hazard;
-    public Animation hung;
-    void Start()
+
+
+   
     {
-        hazard = GetComponent<Animator>();
-        hazard.Play(hung.name);
+        private void Update()
+        {
+if(Input.GetKey(KeyCode.G))
+            if (gameObject.CompareTag("Player")) {
+                GetComponent<Animator>().SetTrigger("Move");
+            }
+        }
     }
 
-    // Update is called once per frame
-    public void Update()
-    {
-
-    }
-
-    public void OnTriggerEnter(Collider gameobject)
-    {
-        
-    }
-}
