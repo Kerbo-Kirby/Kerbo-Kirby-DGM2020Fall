@@ -23,9 +23,9 @@ public class locationChange : MonoBehaviour
     {
        
         {
+            if(gameObject == CompareTag("platform"))
             
-            
-          locChange.value =  gameObject.transform.position;
+          gameObject.transform.position = locChange.value ;
             
      
             

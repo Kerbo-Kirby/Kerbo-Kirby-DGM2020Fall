@@ -21,6 +21,8 @@ public class Spawn : MonoBehaviour
         
         controller = GetComponent<CharacterController>();
      healthslider.MaxSlide(maxhealth.value);
+     
+     
     }
 
     public void Update()
@@ -29,7 +31,7 @@ public class Spawn : MonoBehaviour
         if (health.value <= 0)
         {
 
-          deathSpawn.value =  transform.position ;
+          transform.position = deathSpawn.value;
 
           
            
