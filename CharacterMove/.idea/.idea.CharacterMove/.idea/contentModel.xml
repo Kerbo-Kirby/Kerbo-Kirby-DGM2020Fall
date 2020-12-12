@@ -25,10 +25,11 @@
             <e p="Instance.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
             <e p="loadLevel.cs" t="Include" />
-            <e p="locationChange.cs" t="Include" />
             <e p="mouse.cs" t="Include" />
             <e p="move.cs" t="Include" />
             <e p="NewBehaviourScript.cs" t="Include" />
+            <e p="newLocation.cs" t="Include" />
+            <e p="PickUp.cs" t="Include" />
             <e p="scriptables" t="Include">
               <e p="charaBox.cs" t="Include" />
               <e p="convo.cs" t="Include" />

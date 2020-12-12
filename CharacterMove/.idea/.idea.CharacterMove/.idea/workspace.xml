@@ -13,7 +13,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/convo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/charaBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/loadLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idScriptable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/vectordata/boss.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,16 +46,13 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/intData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/Vector3Dataq.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemeyhealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/shoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/animationtrig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idScriptable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idHold.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/quit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/mouseshoot.cs" />
@@ -73,6 +69,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemy/enemeyhealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/vectordata/boss.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/locationChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/animationtrig.cs" />
       </list>
     </option>
   </component>
@@ -160,6 +159,8 @@
       <workItem from="1607554852149" duration="583000" />
       <workItem from="1607618625827" duration="5427000" />
       <workItem from="1607635133722" duration="11285000" />
+      <workItem from="1607663685324" duration="364000" />
+      <workItem from="1607714290752" duration="14287000" />
     </task>
     <servers />
   </component>

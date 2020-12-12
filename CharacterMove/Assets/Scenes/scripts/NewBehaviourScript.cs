@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Vector3Dataq locChange;
+
+    public GameObject player;
+    public float dk;
+    public GameObject por;
+
     void Start()
     {
-        
+
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter(Collider other)
     {
-        
+
+        {
+          //  if (other.gameObject.CompareTag("Player") == player)
+
+               //other.transform.position = locChange.value;
+
+            ///locChange.value = other.gameObject.transform.position;
+            Debug.Log("im ober here");
+        }
     }
 }
+// else 
+// Debug.Log("what happended?");

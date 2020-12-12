@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class stick : MonoBehaviour
 {
-    public Transform nana;
+  ////  public Transform nana;
 
     public GameObject player;
 
@@ -14,17 +15,21 @@ public class stick : MonoBehaviour
 
 
 
-    void OnTriggerEnter(Collider platform)
+    void OnTriggerEnter(Collider other)
     {
-     if (platform.gameObject.tag == "Player")
+     if (other.gameObject == player)
      {
-      transform.parent = platform.transform;
+player.transform.parent = transform;
      }
     }
 
-    void OnTriggerExit ()
+    void OnTriggerExit(Collider other)
     {
-     gameObject.transform.parent = null;
+     if (other.gameObject == player)
+     {
+
+      player.transform.parent = null;
+     }
     }
 
 
