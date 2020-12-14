@@ -21,7 +21,7 @@ public class Patrol : MonoBehaviour
 
     private NavMeshAgent secretAgent;
     public List<Vector3> ppPoints;
-
+    public Transform player;
     void Start()
     {
 
@@ -33,8 +33,18 @@ public class Patrol : MonoBehaviour
     private int i = 0;
 
 
+   // public void IEnumerator OnTriggerEnter(Collider other)
+   // {
+  //      canPP = false;
+
+  //     transform.LookAt(player);
+  //  }
 
 
+    public void OnTriggerExit(Collider other)
+    {
+        guardPoint();
+    }
 
 
     private IEnumerator guardPoint()
