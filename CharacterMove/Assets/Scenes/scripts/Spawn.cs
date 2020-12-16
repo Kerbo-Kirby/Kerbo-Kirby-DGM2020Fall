@@ -11,7 +11,7 @@ public class Spawn : MonoBehaviour
 
     public intData health,maxhealth;
 
-    public Vector3Dataq deathSpawn;
+    public Transform deathSpawn;
 
   //  public GameObject player;
 
@@ -31,10 +31,8 @@ public class Spawn : MonoBehaviour
         if (health.value <= 0)
         {
 
-          transform.position = deathSpawn.value;
-
-          
-           
+            transform.position = deathSpawn.position;
+            transform.rotation = deathSpawn.rotation;
             health.value = 5;
 
             controller.enabled = true;

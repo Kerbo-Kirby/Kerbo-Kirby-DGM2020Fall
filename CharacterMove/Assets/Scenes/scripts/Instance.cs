@@ -13,23 +13,49 @@ public class Instance : MonoBehaviour
     //.///public vector3Data bang;
 
 
-   
-    
-    
-    public void instancer ()
+    public int damage = 1;
+    public int time = 5;
+
+    void Start()
     {
+        StartCoroutine(DestroyBullet());
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("enemy"))
+        {
+            var hit = other.gameObject;
+
+            
+            // var health = hit.GetComponent<enemeyhealth>();
+
+            //    if (health != null)
+            // {
+            //  .// health.TakeDamage(damage);
+            //Debug.Log("Ouch, you hit me!");
+            // }
+
+        }
+
+    }
+
+    IEnumerator DestroyBullet()
+    {
+        yield return new WaitForSeconds(time);
+        Destroy(gameObject);
+    }
+    
+    
+   // public void instance ()
+   // {
 // velocity of the rigid body
 
 
-        var velocity = cont.velocity;
+     //   var location = transform.position;
+      //  var newObj = Instantiate(bullet);
+      //  print(bang.value);
+       // print(newObj.transform.eulerAngles);
 
-       transform.Translate(Vector3.forward * Time.deltaTime);
-       
-       //the instance calls it and the velocity is a vector 3 while the wyaternion is a rotation
-       
-        Instantiate(bullet, velocity, Quaternion.Euler(bang.value));
-
-        
-        
     }
-}
+

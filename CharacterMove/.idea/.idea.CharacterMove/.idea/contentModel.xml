@@ -12,6 +12,8 @@
             <e p="animationtrig.cs" t="Include" />
             <e p="brains.cs" t="Include" />
             <e p="Bulletforce.cs" t="Include" />
+            <e p="destroy.cs" t="Include" />
+            <e p="eggScoreManager.cs" t="Include" />
             <e p="enemy" t="Include">
               <e p="enemeyhealth.cs" t="Include" />
               <e p="Patrol.cs" t="Include" />
@@ -24,13 +26,12 @@
               <e p="triggerEvent.cs" t="Include" />
             </e>
             <e p="Instance.cs" t="Include" />
+            <e p="invokeBehavior.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
             <e p="loadLevel.cs" t="Include" />
-            <e p="mouse.cs" t="Include" />
             <e p="MouseLocationBehavior.cs" t="Include" />
             <e p="move.cs" t="Include" />
             <e p="NewBehaviourScript.cs" t="Include" />
-            <e p="newLocation.cs" t="Include" />
             <e p="PickUp.cs" t="Include" />
             <e p="scriptables" t="Include">
               <e p="charaBox.cs" t="Include" />
@@ -50,6 +51,7 @@
             <e p="stick.cs" t="Include" />
             <e p="summonBehavior.cs" t="Include" />
             <e p="timeSummon.cs" t="Include" />
+            <e p="turret.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="dialogBoxScripts.cs" t="Include" />
               <e p="healthBar.cs" t="Include" />

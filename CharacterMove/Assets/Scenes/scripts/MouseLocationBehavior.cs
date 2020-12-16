@@ -5,8 +5,8 @@ using UnityEngine;
 public class MouseLocationBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
-    
-    
+
+    public GameObject prefab;
     public Vector3 mouseLocation;
     private Camera cam;
     
@@ -26,5 +26,8 @@ public class MouseLocationBehavior : MonoBehaviour
 
             Debug.Log("lememe");
         }
+        
+         
+        
     }
 }

@@ -11,22 +11,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/invokeBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/convo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idScriptable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/MouseLocationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/charaBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/vectordata/boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/loadLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/scripts/turret.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scenes/Assets/prefab/New Folder/Instance.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/floatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/intData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/stringData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/scriptables/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Bulletforce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/move.cs" />
@@ -43,11 +41,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/New Folder/timeSummon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/healthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/intData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/Vector3Dataq.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemeyhealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idScriptable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/idHold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Pause.cs" />
@@ -57,7 +53,6 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/UI/healthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/event and action/gameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/event and action/handler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/event and action/mouseshoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/charaBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/convo.cs" />
@@ -69,10 +64,18 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/stick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/animationtrig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemy/randomShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemy/Patrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MouseLocationBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/loadLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Bulletforce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/MouseLocationBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/scripts/shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/enemy/Patrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/PickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/invokeBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/eggScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/Instance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/scriptables/intData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/scripts/destroy.cs" />
       </list>
     </option>
   </component>
@@ -165,6 +168,8 @@
       <workItem from="1607900992544" duration="2938000" />
       <workItem from="1607973190498" duration="8951000" />
       <workItem from="1607988527401" duration="1317000" />
+      <workItem from="1608009902992" duration="10839000" />
+      <workItem from="1608070469191" duration="18448000" />
     </task>
     <servers />
   </component>

@@ -18,35 +18,59 @@ public class Patrol : MonoBehaviour
 
    /// public Transform player;
     private bool canHurt, canPP;
-
+   private Transform destination;
     private NavMeshAgent secretAgent;
     public List<Vector3> ppPoints;
     public Transform player;
+    
+    
+   
+   public float speed;
     void Start()
     {
 
         secretAgent = GetComponent<NavMeshAgent>();
-
-        StartCoroutine(guardPoint());
+     //   destination = transform;
+      StartCoroutine(guardPoint());
     }
 
-    private int i = 0;
+  
 
+    private IEnumerator OnTriggerEnter(Collider other)
+    {
+        canHurt = true;
+        canPP = false;
+        secretAgent.destination = player.position;
+        
+        //transform.LookAt(player);
+      
+        
+        var distance = secretAgent.remainingDistance;
+        
+        
+        
+        
+        while (distance <= 0.25f)
+        {
+            distance = secretAgent.remainingDistance;
+            yield return wtf;
+        }
 
-   // public void IEnumerator OnTriggerEnter(Collider other)
-   // {
-  //      canPP = false;
+        yield return new WaitForSeconds(2f);
 
-  //     transform.LookAt(player);
-  //  }
+        StartCoroutine(canHurt ? OnTriggerEnter(other) : guardPoint());
+    }
 
 
     public void OnTriggerExit(Collider other)
     {
-        guardPoint();
+
+        canHurt = false;
+        StartCoroutine(guardPoint());
     }
 
-
+    private int i = 0;
+    
     private IEnumerator guardPoint()
     {
         canPP = true;

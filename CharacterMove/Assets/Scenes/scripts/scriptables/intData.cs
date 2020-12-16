@@ -20,19 +20,32 @@ public class intData : ScriptableObject
     }
 
     // Update is called once per frame
-    public void  health(int amount)
+    public void  increase(int amount)
     {
         value += 1;
     }
 
-    public void damage(int amount)
+    public void decrease(int amount)
     {
         value -= 1;
         
       ///  healthslider.BarHealth();
     }
-    
-    
 
+
+    public void healthPickUp1()
+    {
+        value = 2;
+    }
+    public void healthpickup2()
+    {
+        value = 2;
+    }
+    
+    
+    public void powerUp()
+    {
+        value = 2;
+    }
     
 }
