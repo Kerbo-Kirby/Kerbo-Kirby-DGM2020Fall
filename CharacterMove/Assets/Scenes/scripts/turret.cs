@@ -1,18 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class turret : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+
+    public Transform player;
+
+
+    public void OnTriggerEnter(Collider other)
     {
-        
+        transform.LookAt(player);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+  
 }
+

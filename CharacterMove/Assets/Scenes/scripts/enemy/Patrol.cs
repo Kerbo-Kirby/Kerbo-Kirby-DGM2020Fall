@@ -18,7 +18,7 @@ public class Patrol : MonoBehaviour
 
    /// public Transform player;
     private bool canHurt, canPP;
-   private Transform destination;
+   private Transform destination ;
     private NavMeshAgent secretAgent;
     public List<Vector3> ppPoints;
     public Transform player;
@@ -78,8 +78,9 @@ public class Patrol : MonoBehaviour
         while (canPP)
 
         {
+           
             yield return wtf;
-            if (secretAgent.pathPending || !(secretAgent.remainingDistance < .5)) continue;
+            if (secretAgent.pathPending || !(secretAgent.remainingDistance < 10)) continue;
             secretAgent.destination = ppPoints[i];
             i = (i + 1) % ppPoints.Count;
         }

@@ -27,7 +27,10 @@ public class summonBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
       //  summonItem.SetActive(true);
-        
+
+  if(other.CompareTag("Player"))
+      
+      
         summonItem.transform. position = SummonLocation.value;
 
     }

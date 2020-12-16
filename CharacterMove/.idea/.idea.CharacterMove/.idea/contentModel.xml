@@ -10,6 +10,7 @@
           <e p="scripts" t="Include">
             <e p="activeFalse.cs" t="Include" />
             <e p="animationtrig.cs" t="Include" />
+            <e p="bossbarrier.cs" t="Include" />
             <e p="brains.cs" t="Include" />
             <e p="Bulletforce.cs" t="Include" />
             <e p="destroy.cs" t="Include" />
@@ -19,12 +20,15 @@
               <e p="Patrol.cs" t="Include" />
               <e p="randomShoot.cs" t="Include" />
             </e>
+            <e p="enemyShoot.cs" t="Include" />
             <e p="event and action" t="Include">
+              <e p="dsf.cs" t="Include" />
               <e p="gameAction.cs" t="Include" />
               <e p="handler.cs" t="Include" />
               <e p="mouseshoot.cs" t="Include" />
               <e p="triggerEvent.cs" t="Include" />
             </e>
+            <e p="game.cs" t="Include" />
             <e p="Instance.cs" t="Include" />
             <e p="invokeBehavior.cs" t="Include" />
             <e p="jumper.cs" t="Include" />
@@ -40,6 +44,7 @@
               <e p="idHold.cs" t="Include" />
               <e p="idScriptable.cs" t="Include" />
               <e p="intData.cs" t="Include" />
+              <e p="mouseEvent.cs" t="Include" />
               <e p="stringData.cs" t="Include" />
               <e p="Vector3Dataq.cs" t="Include" />
               <e p="vectordata" t="Include">

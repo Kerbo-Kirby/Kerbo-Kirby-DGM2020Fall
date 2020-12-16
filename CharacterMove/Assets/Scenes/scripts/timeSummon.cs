@@ -1,28 +1,25 @@
 ﻿
+using System;
 using UnityEngine;
 
+using UnityEngine.Events;
 
 public class timeSummon : MonoBehaviour
 {
 
     public float timeApper;
 
-    public GameObject objectApper;
+    public GameObject l;
 
     public void Start()
     {
-       objectApper.SetActive(false);
-     
+
+
     }
 
-
-    public void Update()
+    private void OnTriggerEnter(Collider other)
     {
-
-
-        objectApper.SetActive(true);
-
-
-        
-        }
+        Destroy(l);
+    }
 }
+

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: New Game Action Asset Handler
+  m_Name: New Game Action Asset Handler 1
   m_EditorClassIdentifier: Assembly-CSharp::GameActionAssetHandler
-  gameActionObject: {fileID: 11400000, guid: 7ea058255a1806342a2c7c3477f41426, type: 2}
+  gameActionObject: {fileID: 0}
   handleEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 2a9e3ecff094c1b4b878525ee1fc4071, type: 3}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: 794e267fc0d4182419ff3cec29525218, type: 2}
+        m_MethodName: increase
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -10,12 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: New Game Action Asset Handler
+  m_Name: egghandler
   m_EditorClassIdentifier: Assembly-CSharp::GameActionAssetHandler
-  gameActionObject: {fileID: 11400000, guid: 7ea058255a1806342a2c7c3477f41426, type: 2}
+  gameActionObject: {fileID: 11400000, guid: af45ac51a51a2374bb8534fc519b6fa7, type: 2}
   handleEvent:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 11500000, guid: 80db4e275d5213b4f87409cbc118a1fc, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 11500000, guid: 2a9e3ecff094c1b4b878525ee1fc4071, type: 3}
         m_MethodName: 
         m_Mode: 1
